@@ -8,7 +8,7 @@ Vagrant.configure("2") do |config|
 
   config.vm.network :forwarded_port, guest: 3000, host: 3000
 
-  config.vm.provision :shell, path: "provision.sh", keep_color: true
+  config.vm.provision :shell, path: "provision.sh", privileged: false, keep_color: true
   config.vm.provider "virtualbox" do |box| 
     box.memory = "4096"
   end
