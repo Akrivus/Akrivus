@@ -1,0 +1,28 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand align-bottom" href="#"><%= image_tag('favicon.png', height: 32, style: 'margin-top: -6px;') %>&nbsp;Owen Adrian</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbar">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home</a>
+    </ul>
+  </div>
+</nav>
+<section class="jumbotron" style="background: black url('<%= asset_path('jumbotron.jpg') %>') center/cover no-repeat;">
+  <div class="container-fluid text-white">
+    <h1 class="display-1">Owen Adrian</h1>
+    <div class="description">
+      <h4 class="font-weight-normal">Full Stack Developer in Mesa, AZ</h4>
+      <p>Developing web applications and APIs in Ruby circa 2014.</p>
+      <a class="px-4 btn btn-lg btn-outline-light" href="/resume.pdf" target="_blank">Resume</a>
+      <a class="px-3 btn btn-lg btn-outline-light" href="https://github.com/Akrivus">
+        <i class="fab fa-github"></i>
+      </a>
+      <a class="px-3 btn btn-lg btn-outline-light" href="https://linkedin.com/in/owen-adrian">
+        <i class="fab fa-linkedin"></i>
+      </a>
+    </div>
+  </div>
+</section>

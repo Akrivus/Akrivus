@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <%= display_meta_tags separator: '&ndash;'.html_safe %>
+    <%= display_meta_tags site: "Owen Adrian #{raw('&ndash;')} Full Stack Developer" %>
+    <%= display_meta_tags description: 'Full Stack Developer in Mesa, AZ with 4+ years of experience developing web applications in Ruby and JavaScript.' %>
+    <%= display_meta_tags og: { title: "Owen Adrian #{raw('&ndash;')} Full Stack Developer", image: asset_path('jumbotron.jpg') } %>
+    <%= display_meta_tags author: 'Owen Adrian' %>
+
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <link rel="shortcut icon" href="<%= asset_path('favicon.png') %>">
+
+    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <script src="https://kit.fontawesome.com/90295a0e07.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <%= yield %>
+  </body>
+</html>
