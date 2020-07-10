@@ -1,3 +1,3 @@
-My name is Owen Adrian and I am a Full Stack Developer based out of Mesa, AZ. I've been working with the Ruby langauge for about 6 years and started coding as a video game obsessed elementary schooler in 2009. I enjoy systemic systems and designing interactive programs, and most of my projects here are an uneven mix of Minecraft mods, Discord bots, and various fun games and applications.
+My name is Owen Adrian and I am a full stack developer based out of Mesa, AZ. I've been working with the Ruby language for about 6 years and started coding as a video game obsessed elementary schooler in 2009. I enjoy systemic systems and designing interactive programs, and most of my projects here are an uneven mix of Minecraft mods, Discord bots, and various fun games and applications.
 
 Want to see this repository in action? [Click here.](https://akriv.us)
