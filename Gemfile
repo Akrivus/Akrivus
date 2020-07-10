@@ -12,6 +12,7 @@ gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.7'
 gem 'meta-tags'
 
+gem 'github_webhook', '~> 1.1'
 gem 'bootsnap', '>= 1.4.2', require: false
 
 group :development, :test do
