@@ -5,7 +5,7 @@ class GithubWebhooksController < ActionController::Base
     system('git pull && bundle')
     $RESTART = Thread.new do
       sleep 30
-      exec("passenger-config restart-app /var/www/app")
+      exec('passenger-config restart-app /var/www/app')
     end
   end
 
