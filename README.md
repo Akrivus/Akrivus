@@ -1,3 +1,3 @@
-I spent about an hour and a half deliberating what to write here, and settled on "what if I wrote about myself like I was a repository," only to laugh about the sexual innuendos you could create out of things like "pull requests" and how I could frame "usage" as a jokingly spiteful retelling of the dysfunctional relationship I had with my ex-girlfriend, and lastly going on about my caffeine dependency in "dependencies."
+I wanted to write about myself in the context of a repository, making sexual innuendos about pull requests, joking about how my ex emotionally abused me as an example of "usages" and delving into my love of coffee and how caffeine would be an installation dependency for me. 
 
-Basically, I work in Ruby and make cool shit in everything else.
+Jokes aside, I work in Ruby and make cool shit in everything else.
