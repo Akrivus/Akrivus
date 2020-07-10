@@ -1,9 +1,3 @@
-# Hello!
+My name is Owen Adrian and I am a Full Stack Developer based out of Mesa, AZ. I've been working with the Ruby langauge for about 6 years and started coding as a video game obsessed elementary schooler in 2009. I enjoy systemic systems and designing interactive programs, and most of my projects here are an uneven mix of Minecraft mods, Discord bots, and various fun games and applications.
 
-My name is Owen, I've studied Ruby for about 6 years and started coding in 2009. I am a full stack developer with a knack for developing
-accessible and easy-to-use applications and am also a huge nerd for code ergonomics, cleanliness, APIs and technical stacks. 
-
-I am very passionate about coffee and education, and my dream is to open a "maker's cafe" where people can work, study, collaborate, create,
-and learn, and offer oppurtunities to people in the community that otherwise wouldn't have those oppurtunities. I believe diversity in tech is very important and if you disagree you can very politely go fuck yourself.
-
-Outside of work I develop Minecraft mods that combine my passions, such as CoffeeCraft, RESTfulCraft, and KAGIC to name a few.
+Want to see this repository in action? [Click here.](https://akriv.us)
