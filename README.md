@@ -1,1 +1,1 @@
-![Hi, I'm Owen Adrian, I've been developing web apps in Rails since 2014](./banner.png)
+![Hi, I'm Owen Adrian, I've been developing web apps in Rails since 2014](banner.png)
