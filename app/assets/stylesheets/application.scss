@@ -15,10 +15,10 @@
  *= require_self
  */
 
- $primary: #0157A4;
- $secondary: #F5D547;
- $light: #EBEBD3;
- $dark: #3C3C3B;
+ $primary: #0157a4;
+ $secondary: #f5d547;
+ $light: #ffffff;
+ $dark: #3c3c3b;
 
 // Looks gross. Nastee Rails 6 stuff.
  @import "../../../node_modules/bootstrap/scss/bootstrap.scss";
