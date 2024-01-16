@@ -1,2 +1,9 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script>
+  import TopBarMenu from '../lib/components/TopBarMenu.svelte';
+  import Landing from '$lib/components/Landing.svelte';
+  import Projects from '$lib/components/Projects.svelte';
+</script>
+
+<TopBarMenu />
+<Landing />
+<Projects />
