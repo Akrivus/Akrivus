@@ -1,38 +1,13 @@
-# create-svelte
+## About Me
+I'm Owen and I like reading and learning about new things. I've been a software engineer for six years, where I empower organizations by building robust and optimized backend server systems, APIs and services.
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
+Here's some facts about me:
+- 🛠️ Currently, I'm updating my portfolio and thinking up ideas for side projects.
+- 🔭 I'm exploring new job opportunities.
+- 🎮 I'm developing an rogue-like ecosystem game called The Last Dragon.
+- 🪴 I built a hydroponic system that grows peppers and strawberries on my patio.
+- ☕ I have an espresso machine that I'm always using to chase after the perfect cortado.
+- 👶 My wife and I are excited to welcome a daughter in April!
 
-## Creating a project
-
-If you're seeing this, you've probably already done this step. Congrats!
-
-```bash
-# create a new project in the current directory
-npm create svelte@latest
-
-# create a new project in my-app
-npm create svelte@latest my-app
-```
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+### Links
+- **[Resume](./static/Owen%20Adrian%20-%20Resume.pdf)**
