@@ -31,7 +31,7 @@
     <div class="col">
       <h1>Hi,<br /><span class="name">I'm Owen</span></h1>
       <p class="lead">I drive productivity and efficiency with robust cloud solutions. Leveraging my expertise in software engineering, I have enabled stakeholder growth and delivered high-value applications and efficient workflows for over six years.</p>
-      <a class="btn btn-lg btn-outline-success" href="/Owen Adrian - Resume.pdf">Résumé</a>
+      <a class="btn btn-lg btn-outline-success" href="Owen Adrian - Resume.pdf">Résumé</a>
     </div>
     <div class="col">
       <div class="portrait"></div>
