@@ -11,3 +11,4 @@ Here's some facts about me:
 
 ### Links
 - **[Resume](./static/Owen%20Adrian%20-%20Resume.pdf)**
+- **[Portfolio README](./READ2.md)
