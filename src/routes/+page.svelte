@@ -35,7 +35,7 @@
   />
   <Experience image="{visuallive}"
     title="Software Engineer"
-    company="Unity Technologies"
+    company="VisualLive"
     dates="March 2020 - March 2021"
     description=""
     points={[
@@ -46,7 +46,7 @@
   />
   <Experience image="{oco}"
     title="Software Engineer"
-    company="Unity Technologies"
+    company="Order Coffee Online"
     dates="September 2017 - March 2020"
     description=""
     points={[
