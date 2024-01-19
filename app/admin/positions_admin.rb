@@ -28,6 +28,6 @@ Trestle.resource(:positions) do
   end
 
   params do |params|
-    params.require(:project).permit(:image_key, :title, :name, :content, :started_at, :ended_at)
+    params.require(:position).permit(:image_key, :title, :name, :content, :started_at, :ended_at)
   end
 end
