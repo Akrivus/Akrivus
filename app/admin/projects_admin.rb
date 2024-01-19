@@ -1,37 +1,33 @@
 Trestle.resource(:projects) do
   menu do
-    group :data do
+    group :input_data do
       item :projects, icon: "fa fa-stream"
     end
   end
 
-  # Customize the table columns shown on the index view.
-  #
-  # table do
-  #   column :name
-  #   column :created_at, align: :center
-  #   actions
-  # end
+  table do
+    column :name
+    column :started_at
+    column :ended_at
+    column :created_at
+    actions
+  end
 
-  # Customize the form fields shown on the new/edit views.
-  #
-  # form do |project|
-  #   text_field :name
-  #
-  #   row do
-  #     col { datetime_field :updated_at }
-  #     col { datetime_field :created_at }
-  #   end
-  # end
+  form do |skill|
+    text_field :image_key
+    text_field :icon
+    text_field :color
+    text_field :name
 
-  # By default, all parameters passed to the update and create actions will be
-  # permitted. If you do not have full trust in your users, you should explicitly
-  # define the list of permitted parameters.
-  #
-  # For further information, see the Rails documentation on Strong Parameters:
-  #   http://guides.rubyonrails.org/action_controller_overview.html#strong-parameters
-  #
-  # params do |params|
-  #   params.require(:project).permit(:name, ...)
-  # end
+    row do
+      date_field :started_at
+      date_field :ended_at
+    end
+
+    text_area :content
+  end
+
+  params do |params|
+    params.require(:project).permit(:image_key, :icon, :color, :name, :content, :started_at, :ended_at)
+  end
 end
