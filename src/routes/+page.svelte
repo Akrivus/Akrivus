@@ -24,15 +24,39 @@
     <div class="row row-cols-2 row-cols-sm-1">
       <div class="col">
         <p>
-          I'm a software engineer with a passion for solving real-world problems. My journey began with
-          a childhood fascination for understanding how things work and why they work the way they do,
-          leading me down a path of endless curiosity and discovery. Software development is a tool I use
-          to transfer my ideas into impact, and is a craft I've continued to hone and refine for six years.
+          Greetings! I'm Owen, an experienced software engineer with a passion for creating
+          meaningful change through technology. My journey began with a childhood fascination
+          for understanding how things worked, driven by a love for absorbing information
+          from books and documentaries.
         </p>
         <p>
-          I'm a firm believer in the power of technology to improve the lives of people everywhere, and
-          I'm always looking for new opportunities to grow and develop my skills. If you'd like to get in
-          touch, please feel free to reach out with the contact information below.
+          My hands-on learning approach naturally led me into the world of software development.
+          I initially delved into coding through video games, particularly rogue-likes, during my
+          early teens. The statistical gameplay and the ability to devise emergent systems
+          captivated me. At the age of 12, I started my coding journey with Visual Basic, later
+          expanding into C# and Java through Minecraft modding.
+        </p>
+        <p>
+          Developing Minecraft mods exposed me to the practical application of code, problem-solving,
+          and optimizing in-game workflows. In high school, I applied my coding knowledge to automate
+          assignments in advanced computer classes using OCR and keyboard handling.
+        </p>
+        <p>
+          My quick grasp of patterns led me to thrive in high-paced, goal-oriented environments,
+          particularly startups. In 2017, I launched my first business venture after identifying an
+          untapped market of commuters leaving town for coffee due to parking issues around local cafes.
+          With an optimized online ordering system, I showcased how my inquisitive and innovative nature
+          could yield tangible business results.
+        </p>
+        <p>
+          This venture not only expanded my client's revenue but also facilitated significant growth,
+          nearly tripling their income. It marked the beginning of my web development journey, leading to
+          successful partnerships, exits, and impactful contributions to organizations
+          like VisualLive and Unity Technologies.
+        </p>
+        <p>
+          I'm excited about future opportunities and look forward to leveraging my diverse experiences
+          to continue making a lasting impact in the tech industry.
         </p>
       </div>
     </div>
@@ -43,14 +67,31 @@
       <div class="col">
         <ul>
           <li>Ruby</li>
+          <li>Ruby on Rails</li>
+          <li>Sinatra</li>
           <li>JavaScript</li>
           <li>C#</li>
+          <li>ASP.NET Core</li>
           <li>React</li>
           <li>Svelte</li>
+          <li>Node.js</li>
+          <li>Express</li>
+          <li>HTML</li>
+          <li>CSS</li>
+        </ul>
+      </div>
+      <div class="col">
+        <ul>
+          <li>C++</li>
+          <li>Visual Basic</li>
           <li>Unity</li>
           <li>Python</li>
           <li>SQL</li>
           <li>Java</li>
+          <li>Docker</li>
+          <li>Git</li>
+          <li>Linux</li>
+          <li>Windows</li>
         </ul>
       </div>
     </div>
