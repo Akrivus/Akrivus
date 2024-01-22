@@ -1,7 +1,3 @@
-<script>
-  export let content = "";
-</script>
-
 <style>
   h1 {
     font-size: 3rem;
@@ -39,7 +35,9 @@
   <div class="row col-sm col-lg-9 col-xl-7">
     <div class="col-md-7 col-lg-8 col-xl-9">
       <h1>Hi,<br /><span class="name">I'm Owen</span></h1>
-      <p class="lead">{content}</p>
+      <p class="lead">
+        <slot name="content">Content loading...</slot>
+      </p>
       <a href="Owen Adrian - Resume.pdf" class="btn btn-lg btn-outline-success">Résumé</a>
       <a aria-label="LinkedIn" href="https://linkedin.com/in/owen-adrian" class="btn btn-lg btn-outline-success"><i class="fab fa-linkedin" /></a>
       <a aria-label="GitHub" href="https://github.com/Akrivus" class="btn btn-lg btn-outline-success"><i class="fab fa-github" /></a>

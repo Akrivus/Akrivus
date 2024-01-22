@@ -14,10 +14,13 @@
   import oco from '$lib/images/logos/oco.png';
 </script>
 
-<Landing content="
-  I drive productivity and efficiency with robust cloud solutions. Leveraging my
-  expertise in software engineering, I have enabled stakeholder growth and delivered
-  high-value applications and efficient workflows for over six years." />
+<Landing>
+  <span slot="content">
+    I drive productivity and efficiency with robust cloud solutions. Leveraging my
+    expertise in software engineering, I have enabled stakeholder growth and delivered
+    high-value applications and efficient workflows for over six years."
+  </span>
+</Landing>
 
 <NavArea>
   <Section id="story" title="My Story">
@@ -58,7 +61,7 @@
   </Section>
 
   <Section id="skills" title="My Skills">
-    <div class="row row-cols-2 row-cols-sm-1">
+    <div class="row row-cols-2">
       <div class="col">
         <ul>
           <li>Ruby</li>
@@ -73,20 +76,24 @@
           <li>Express</li>
           <li>HTML</li>
           <li>CSS</li>
+          <li>Python</li>
         </ul>
       </div>
       <div class="col">
         <ul>
-          <li>C++</li>
-          <li>Visual Basic</li>
-          <li>Unity</li>
-          <li>Python</li>
-          <li>SQL</li>
-          <li>Java</li>
           <li>Docker</li>
           <li>Git</li>
           <li>Linux</li>
           <li>Windows</li>
+          <li>Azure</li>
+          <li>AWS</li>
+          <li>Heroku</li>
+          <li>PostgreSQL</li>
+          <li>Visual Basic</li>
+          <li>Unity</li>
+          <li>SQL</li>
+          <li>Java</li>
+          <li>C++</li>
         </ul>
       </div>
     </div>
