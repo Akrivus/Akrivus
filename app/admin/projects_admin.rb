@@ -30,4 +30,34 @@ Trestle.resource(:projects) do
   params do |params|
     params.require(:project).permit(:image_key, :icon, :color, :name, :content, :started_at, :ended_at)
   end
+  
+  controller do
+    def index
+      super
+    end
+
+    def show
+      super
+    end
+
+    def new
+      super if current_user.admin?
+    end
+
+    def create
+      super if current_user.admin?
+    end
+
+    def edit  
+      super if current_user.admin?
+    end
+
+    def update
+      super if current_user.admin?
+    end
+
+    def destroy
+      super if current_user.admin?
+    end
+  end
 end
