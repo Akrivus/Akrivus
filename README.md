@@ -1,14 +1,14 @@
 ## About Me
-I'm Owen and I like reading and learning about new things. I've been a software engineer for six years, where I empower organizations by building robust and optimized backend server systems, APIs and services.
+I'm Owen and I love learning about technology, history, and how all of those things mesh together. It's no surprise that my innovative and interpretative problem solving process gravitated me towards engineering, specifically software, which I use to realize my entreprenurial visions
+and fuel a burning passion for developing practical cloud solutions and experiences.
 
 Here's some facts about me:
-- 🛠️ Currently, I'm updating my portfolio and thinking up ideas for side projects.
-- 🔭 I'm exploring new job opportunities.
-- 🎮 I'm developing an rogue-like ecosystem game called The Last Dragon.
-- 🪴 I built a hydroponic system that grows peppers and strawberries on my patio.
-- ☕ I have an espresso machine that I'm always using to chase after the perfect cortado.
-- 👶 My wife and I are excited to welcome a daughter in April!
+- 🔭 While I search for my next full-time project, I'm freelancing.
+- 👶 I'm a dad!
+- 🎮 I'm developing an LLM powered rogue-lite called Living Legend.
+- 🪴 I grow peppers and strawberries on my balcony with a hydroponic system I built myself.
+- ☕ I have an espresso machine that I'm always using to prepare the perfect cortado.
 
 ### Links
-- **[Resume](./static/Owen%20Adrian%20-%20Resume.pdf)**
-- **[Portfolio README](./READ2.md)
+- **[Resume.pdf](./static/Owen%20Adrian%20-%20Resume.pdf)**
+- **[Portfolio README.md](./READ2.md)**
