@@ -3,7 +3,7 @@ I'm Owen and I love learning about technology, history, and how all of those thi
 and fuel a burning passion for developing practical cloud solutions and experiences.
 
 Here's some facts about me:
-- 🔭 While I search for my next full-time project, I'm freelancing.
+- 🔭 While I search for my next long-term project, I'm trying new things to freshen my craft.
 - 👶 I'm a dad!
 - 🎮 I'm developing an LLM powered rogue-lite called Living Legend.
 - 🪴 I grow peppers and strawberries on my balcony with a hydroponic system I built myself.
