@@ -18,7 +18,7 @@
   <span slot="content">
     I drive productivity and efficiency with robust cloud solutions. Leveraging my
     expertise in software engineering, I have enabled stakeholder growth and delivered
-    high-value applications and efficient workflows for over six years."
+    high-value applications and efficient workflows for over six years.
   </span>
 </Landing>
 
