@@ -127,6 +127,8 @@ GEM
     minitest (5.21.1)
     msgpack (1.7.2)
     mutex_m (0.2.0)
+    neighbor (0.3.2)
+      activerecord (>= 6.1)
     net-imap (0.4.9.1)
       date
       net-protocol
@@ -226,6 +228,7 @@ DEPENDENCIES
   bootsnap
   debug
   jbuilder
+  neighbor
   postgresql (~> 1.0)
   puma (>= 5.0)
   rack-cors

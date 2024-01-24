@@ -16,6 +16,7 @@ gem "rack-cors"
 
 gem "trestle", "~> 0.9.8"
 gem "trestle-auth", "~> 0.4.4"
+gem "neighbor"
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem "tzinfo-data", platforms: %i[ windows jruby ]
