@@ -1,6 +1,6 @@
 ## About Me
 I'm Owen and I love learning about technology, history, and how all of those things mesh together. It's no surprise that my innovative and interpretative problem solving process gravitated me towards engineering, specifically software, which I use to realize my entreprenurial visions
-and fuel a burning passion for developing practical cloud solutions and experiences.
+and fuel a burning passion for building practical solutions and user experiences.
 
 Here's some facts about me:
 - 🔭 While I search for my next long-term project, I'm trying new things to freshen my craft.
