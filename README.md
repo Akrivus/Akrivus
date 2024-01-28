@@ -10,5 +10,5 @@ Here's some facts about me:
 - ☕ I have an espresso machine that I'm always using to prepare the perfect cortado.
 
 ### Links
-- **[Resume.pdf](./static/Owen%20Adrian%20-%20Resume.pdf)**
-- **[Portfolio README.md](./READ2.md)**
+- **[Resume](./static/Owen%20Adrian%20-%20Resume.pdf)**
+- **[README](./docs/README.md)**
