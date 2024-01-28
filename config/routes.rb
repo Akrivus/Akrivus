@@ -5,6 +5,10 @@ def render_svelte
 end
 
 Rails.application.routes.draw do
+  resources :experiences
+  resources :skills
+  resources :stories
+
   get "up" => "rails/health#show", as: :rails_health_check
   get "admin" => "trestle/dashboard#index"
 

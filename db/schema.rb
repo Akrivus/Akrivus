@@ -10,13 +10,54 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.1].define(version: 2024_01_26_190250) do
+ActiveRecord::Schema[7.1].define(version: 2024_01_26_200811) do
   create_schema "heroku_ext"
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "cube"
   enable_extension "pg_stat_statements"
   enable_extension "plpgsql"
+
+  create_table "experiences", force: :cascade do |t|
+    t.string "category"
+    t.string "title"
+    t.string "name"
+    t.string "location"
+    t.string "content"
+    t.cube "embedding"
+    t.datetime "started_at"
+    t.datetime "ended_at"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "experiences_skills", id: false, force: :cascade do |t|
+    t.bigint "experience_id", null: false
+    t.bigint "skill_id", null: false
+    t.index ["experience_id", "skill_id"], name: "index_experiences_skills_on_experience_id_and_skill_id"
+    t.index ["skill_id", "experience_id"], name: "index_experiences_skills_on_skill_id_and_experience_id"
+  end
+
+  create_table "skills", force: :cascade do |t|
+    t.string "icon"
+    t.string "name"
+    t.string "content"
+    t.cube "embedding"
+    t.integer "proficiency"
+    t.datetime "started_at"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "stories", force: :cascade do |t|
+    t.string "title"
+    t.string "content"
+    t.cube "embedding"
+    t.bigint "experience_id", null: false
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["experience_id"], name: "index_stories_on_experience_id"
+  end
 
   create_table "users", force: :cascade do |t|
     t.string "email"
@@ -29,4 +70,5 @@ ActiveRecord::Schema[7.1].define(version: 2024_01_26_190250) do
     t.datetime "updated_at", null: false
   end
 
+  add_foreign_key "stories", "experiences"
 end
