@@ -1,5 +1,5 @@
 <script>
-  import NavArea from '../lib/components/NavArea.svelte';
+  import NavArea from '../lib/components/nav/NavArea.svelte';
   import Section from '$lib/components/Section.svelte';
   import Landing from '$lib/components/Landing.svelte';
   import Project from '$lib/components/Project.svelte';
@@ -14,48 +14,63 @@
   import oco from '$lib/images/logos/oco.png';
 </script>
 
+<style>
+  #vertical-carousel {
+    background-image: url('$lib/images/journey.jpg');
+    background-size: cover;
+    background-position-x: center;
+    background-repeat: no-repeat;
+    animation: vertical-scroll 120s linear infinite;
+  }
+
+  @keyframes vertical-scroll {
+    from {
+      background-position-y: 0%;
+    }
+    50% {
+      background-position-y: 100%;
+    }
+    to {
+      background-position-y: 0%;
+    }
+  }
+</style>
+
 <Landing>
-  <span slot="content">
-    I drive productivity and efficiency with robust cloud solutions. Leveraging my
-    expertise in software engineering, I have enabled stakeholder growth and delivered
-    high-value applications and efficient workflows for over six years.
-  </span>
+  <p class="lead">
+    I break ground with performant and scalable solutions to real-world problems. From building start-ups to
+    scaling global enterprises, I deliver results with my passion for technology and diverse experience.
+  </p>
 </Landing>
 
 <NavArea>
-  <Section id="story" title="My Story">
-    <div class="row row-cols-2 row-cols-sm-1">
+  <Section id="journey" title="My Journey">
+    <div class="row row-cols-2">
       <div class="col">
         <p>
-          Greetings! I'm Owen, an experienced software engineer with a passion for creating
-          meaningful change through technology. My journey began with a childhood fascination
-          for understanding how things worked, driven by a love for absorbing information
-          from books and documentaries.
+          My journey into tech began with a childhood curiosity, leading me to explore coding
+          through video games and later diving into software development with C#, and Java.
         </p>
         <p>
-          My hands-on learning approach naturally led me into the world of software development.
-          I initially delved into coding through video games, particularly rogue-likes, during my
-          early teens. The statistical gameplay and the ability to devise emergent systems
-          captivated me. At the age of 12, I started my coding journey with Visual Basic, later
-          expanding into C# and Java through Minecraft modding. Developing Minecraft mods exposed
-          me to the practical application of code, problem-solving, and optimizing in-game workflows.
-          In high school, I applied my coding knowledge to automate assignments in advanced computer
-          classes using OCR and keyboard handling, and built a chatbot using Markov chains.
+          In high school, I automated tasks with Java and built a chatbot in Ruby, showcasing
+          my knack for practical applications.
         </p>
         <p>
-          My quick grasp of patterns led me to thrive in high-paced, goal-oriented environments,
-          particularly startups. In 2017, I launched my first business venture after identifying an
-          untapped market of commuters leaving town for coffee due to parking issues around local cafes.
-          With an optimized online ordering system, I showcased how my inquisitive and innovative nature
-          could yield tangible business results. This venture not only expanded my client's revenue but
-          also facilitated significant growth, doubling their revenue. It marked the beginning of my
-          web development journey, leading to successful partnerships, exits, and impactful contributions
-          to organizations like VisualLive and Unity Technologies.
+          Venturing into entrepreneurship in 2017, I addressed a local cafe's parking issue
+          by developing an optimized online ordering system and increasing their revenue.
         </p>
         <p>
-          I'm excited about future opportunities and look forward to leveraging my diverse experiences
-          to continue making a lasting impact in the tech industry.
+          This success launched my web development career, leading to impactful solutions for
+          organizations in the AEC and video game industries like VisualLive and Unity Technologies.
         </p>
+        <p>
+          I'm passionate about using my diverse experience and strategic problem solving to
+          continue making meaningful impacts to projects and organizations and toeing the line
+          of what is possible with technology.
+        </p>
+      </div>
+      <div class="col" id="vertical-carousel">
+        
       </div>
     </div>
   </Section>
