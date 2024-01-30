@@ -2,7 +2,7 @@
   export let title = "Featured";
   export let id = null;
 
-  import { navlinkStore } from '$lib/stores/NavLinkStore.js';
+  import { navlinkStore } from '$lib/util/NavLinkStore.js';
 
   id = id ?? title.toLowerCase();
   navlinkStore.update((navlinks) => navlinks = [...navlinks, {id, title}]);

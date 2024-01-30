@@ -1,8 +1,7 @@
 <script>
   import ModeButton from '$lib/components/nav/ModeButton.svelte';
-  import ScrollButton from '$lib/components/nav/ScrollButton.svelte';
 
-  import { navlinkStore } from '$lib/stores/NavLinkStore.js';
+  import { navlinkStore } from '$lib/util/NavLinkStore.js';
   navlinkStore.set([]); // Reset navlinks
 </script>
 
@@ -20,4 +19,3 @@
 </header>
 
 <slot>Loading...</slot>
-<ScrollButton />
