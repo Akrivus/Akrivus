@@ -1,6 +1,4 @@
 <script>
-  import ModeButton from '$lib/components/nav/ModeButton.svelte';
-
   import { navlinkStore } from '$lib/util/NavLinkStore.js';
   navlinkStore.set([]); // Reset navlinks
 </script>
@@ -12,9 +10,6 @@
         <a class="nav-link px-3 text-white" href="#{navlink.id}">{navlink.title}</a>
       </li>
     {/each}
-    <li class="nav-item text-nowrap my-auto">
-      <ModeButton />
-    </li>
   </ul>
 </header>
 
