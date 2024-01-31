@@ -69,14 +69,37 @@
           I observe the world around me and think about ways to improve it. I envision
           solutions and implement them using my programming prowess and technical expertise.
           For {new Date().getFullYear() - 2017} years, I've driven growth and productivity
-          for organizations by developing software that is reliable, scalable, and secure.
+          for organizations by developing reliable, scalable, and secure software.
+        </p>
+      </Card>
+      <Card sizes={["12", "sm-6", "md-4"]}>
+        <h5 slot="header" class="card-title">I'm a self-starter.</h5>
+        <p  slot="content" class="card-text">
+          I took control of my destiny in 2017 by starting my own business and
+          learned the direct impact of my decisions and the value of my work.
+        </p>
+      </Card>
+      <Card sizes={["12", "sm-6", "md-4"]}>
+        <h5 slot="header" class="card-title">I'm an engineer.</h5>
+        <p  slot="content" class="card-text">
+          I'm proficient in Ruby, JavaScript, and C#, but nothing is beyond
+          my reach; I've worked on codebases and frameworks in C++, Python and
+          Java.
+        </p>
+      </Card>
+      <Card sizes={["12", "sm-6", "md-4"]}>
+        <h5 slot="header" class="card-title">I'm a full-stack developer.</h5>
+        <p  slot="content" class="card-text">
+          I have experience with Ruby on Rails, ASP.NET Core, and JavaScript,
+          deploying my solutions on various platforms, including Azure AKS and
+          App Service, ECS, and Heroku.
         </p>
       </Card>
       <Card sizes={["12", "sm-6", "md-4"]}>
         <h5 slot="header" class="card-title">I solve problems.</h5>
         <p  slot="content" class="card-text">
-          I immerse myself in the problem space to understand the challenges, which I plan and execute on by
-          leveraging my skills and the talent of my team.
+          I immerse myself in the problem space to understand the challenges, plan, and execute by
+          leveraging my expertise and the team's.
         </p>
       </Card>
       <Card sizes={["12", "sm-6", "md-4"]}>
@@ -96,29 +119,8 @@
       <Card sizes={["12", "sm-6", "md-4"]}>
         <h5 slot="header" class="card-title">I'm a team player.</h5>
         <p  slot="content" class="card-text">
-          I look for opportunities to accomplish more by working with others, whether it's during caffeinated nights
+          I look for opportunities to accomplish more by working with others, whether during caffeinated nights
           at the office or at home over a video call.
-        </p>
-      </Card>
-      <Card sizes={["12", "sm-6", "md-4"]}>
-        <h5 slot="header" class="card-title">I'm an engineer.</h5>
-        <p  slot="content" class="card-text">
-          I'm proficient in Ruby, JavaScript, C#, but nothing is beyond my reach, I've worked on
-          codebases and frameworks in C++, Python and Java.
-        </p>
-      </Card>
-      <Card sizes={["12", "sm-6", "md-4"]}>
-        <h5 slot="header" class="card-title">I'm a full stack developer.</h5>
-        <p  slot="content" class="card-text">
-          I'm experienced with Ruby on Rails, ASP.NET Core, React, and Svelte, and I've deployed my solutions
-          on Azure AKS and App Service, ECS, and Heroku.
-        </p>
-      </Card>
-      <Card sizes={["12", "sm-6", "md-4"]}>
-        <h5 slot="header" class="card-title">I'm an entrepreneur.</h5>
-        <p  slot="content" class="card-text">
-          I took control of my destiny in 2017 by starting my own business, and learned the direct impact of my
-          decisions and the value of my work.
         </p>
       </Card>
     </div>
@@ -141,7 +143,7 @@
       <Card sizes={["6", "sm-4", "lg-3"]}>
         <h5 slot="header" class="card-title">Web Development</h5>
         <div slot="content" class="card-text">
-          I write HTML, CSS, JavaScript, and develop with various frameworks.
+          I write HTML, CSS, and JavaScript powered by file servers or frameworks.
         </div>
       </Card>
       <Card sizes={["6", "sm-4", "lg-3"]}>
@@ -171,7 +173,7 @@
       <Card sizes={["6", "sm-4", "lg-3"]}>
         <h5 slot="header" class="card-title">Integrating Security</h5>
         <div slot="content" class="card-text">
-          MFA, SSO, RBAC, along with OWASP, GDPR, NIST and PCI standards
+          MFA, SSO, RBAC, along with OWASP, GDPR, NIST, and PCI standards
         </div>
       </Card>
       <Card sizes={["6", "sm-4", "lg-3"]}>
@@ -213,7 +215,7 @@
       <Card sizes={["6", "sm-4", "lg-3"]}>
         <h5 slot="header" class="card-title">Project Management</h5>
         <div slot="content" class="card-text">
-          I can plan, execute, and deliver projects on time and on budget.
+          I can plan, execute, and deliver projects on time and budget.
         </div>
       </Card>
       <Card sizes={["6", "sm-4", "lg-3"]}>
@@ -234,17 +236,17 @@
         </div>
         <div slot="content">
           <p class="card-text">
-            As a 12-year-old kid on the internet, I discovered TouchOfDeath,
-            an online community dedicated to developing MMORPG games in Visual
-            Basic 6 using Eclipse Origins. Through diligent self-learning and
-            experimentation, I implemented an authentication system, addressed
-            security issues, and created a feature enabling players to heckle
-            NPC merchants in an orient-inspired video game.
+            As a 11-year-old kid on the internet in 2012, I discovered
+            TouchOfDeath, an online community dedicated to developing MMORPG
+            games in Visual Basic 6 using Eclipse Origins. Through diligent
+            self-learning and experimentation, I implemented an authentication
+            system and created a feature enabling players to heckle NPC
+            merchants in an Orient-medieval video game.
           </p>
           <ul>
             <li>Acquired proficiency in programming through self-study.</li>
-            <li>Implemented a secure authentication system for 160 players.</li>
-            <li>Created a chat moderation bot using sentiment analysis.</li>
+            <li>Implemented a secure authentication system for 60 players.</li>
+            <li>Created a chat moderation bot using very gnarly regex.</li>
           </ul>
         </div>
       </ImageCard>
@@ -257,8 +259,8 @@
           <p class="card-text">
             I gained online recognition for building popular Minecraft mods
             such as KAGIC, which introduced holographic guardians called Gems;
-            Mob Mash, featuring a dozen new enemies; and CoffeeCraft, focused
-            on coffee cultivation and trade. The most popular project, KAGIC, I
+            Mob Mash, featuring a dozen new enemies; and CoffeeCraft, which focused
+            on coffee cultivation and trade. In the most popular project, KAGIC, I
             implemented core features like Gem creation and commands using an
             NLP model for chat interaction, resulting in over 300,000 downloads,
             a 13,000-strong community, and widespread visibility through
@@ -279,7 +281,7 @@
         <div slot="content">
           <p class="card-text">
             I conceived the idea of Hacker's Holiday, a seasonal hackathon
-            where my talented friend group and myself would tackle local
+            where my talented friend group and I would tackle local
             community challenges. Through late-night brainstorming sessions
             fueled by caffeine, we developed solutions such as Downtown Connect,
             an event app for Historic Downtown Liberty, an online ordering
@@ -289,8 +291,8 @@
           </p>
           <ul>
             <li>Awarded Liberty Chamber of Commerce 20under20 award.</li>
-            <li>Developed MVP that would go on to raise over $1,000,000.</li>
-            <li>Designed an IoT solution that increase conversion by 40%.</li>
+            <li>Developed MVP that would go on to raise over $500,000.</li>
+            <li>Designed an IoT solution that increased conversion by 40%.</li>
           </ul>
         </div>
       </ImageCard>
@@ -306,14 +308,14 @@
             multiple locations, a mobile app, and a menu editor. I managed
             development, deployment, and maintenance, hosting the app on Digital
             Ocean and integrating Stripe for payments and Twilio for SMS
-            notifications. The platform processed over $1,000,000 in orders,
+            notifications. The platform processed over $500,000 in orders,
             served 3,000 customers, and earned me recognition from the Liberty
             Chamber of Commerce 20under20 award, culminating in its sale to
             a local business owner amid the COVID-19 pandemic.
           </p>
           <ul>
             <li>Awarded Liberty Chamber of Commerce 20under20 award.</li>
-            <li>Processed over $1,000,000 in sales, over 3,000 customers.</li>
+            <li>Processed over $500,000 in sales and over 3,000 customers.</li>
             <li>Orchestrated a successful exit in 2020.</li>
           </ul>
         </div>
@@ -360,8 +362,8 @@
             technologies like ChatGPT.
           </p>
           <ul>
-            <li>Increased market share with by integrating VisualLive into UIC.</li>
-            <li>Slashed hosting costs by 50% with a new scaling strategy.</li>
+            <li>Increased market share by integrating VisualLive into UIC.</li>
+            <li>Slashed hosting costs by 30% with a new scaling strategy.</li>
             <li>Improved performance by 40% with a new 3D model converter.</li>
           </ul>
         </div>
@@ -376,7 +378,7 @@
             Following Unity's restructuring in 2023, I embraced the market
             downturn as an opportunity for reflection and exploration. While
             job-hunting, I continue to develop my portfolio website with new
-            ideas, and use GPT and simulated environments in Unity to create
+            ideas and use GPT and simulated environments in Unity to create
             immersive narratives. I'm focused on seeking new opportunities
             aligned with my skills and interests, upskilling, sharing my
             journey, and fostering a supportive community of talented
@@ -384,7 +386,7 @@
           </p>
           <ul>
             <li>Seeking new opportunities to exercise skills and gain new ones.</li>
-            <li>Using GPT to craft immersive narratives from simulated environments.</li>
+            <li>Using GPT to craft compelling narratives about simulated worlds.</li>
             <li>Developing a portfolio website to showcase my skills.</li>
           </ul>
         </div>
@@ -397,21 +399,21 @@
       <Project icon="cloud" image="{portfolio}"
         title="My Portfolio"
         description="In 2024, I developed a new portfolio website to showcase my
-        skills and experience using SvelteKit, a new way to develop single page
+        skills and experience using SvelteKit, a new way to create single-page
         web front-ends in JavaScript."
         action="View Source Code"
         actionHref="https://github.com/Akrivus/Akrivus"
         />
       <Project icon="brain" image="{mlagents}"
         title="ML Agents"
-        description="Using Unity's ML Agents, I'm developing a torque-driven
+        description="Using Unity's ML-Agents, I'm developing a torque-driven
         active ragdoll that responds to an LLM by replicating different poses and movements
         for AI storytelling and filmmaking."
         />
       <Project icon="gamepad" image="{tides}"
         title="AI Storytelling"
         description="I'm developing a procedurally generated island with simulated erosion,
-        ecosystems, civilizations that can be explored by an AI storyteller with GPT-4."
+        ecosystems, and civilizations that an AI storyteller with GPT-4 can explore."
         />
     </div>
   </Section>
