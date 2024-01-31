@@ -13,7 +13,7 @@
 <section id="{id}">
   <div class="container px-4 py-5">
     <h2 class="pb-2 border-bottom">{title}</h2>
-    <div class="g-4 py-5">
+    <div class="row g-4 py-5">
       <slot>Loading...</slot>
     </div>
   </div>
