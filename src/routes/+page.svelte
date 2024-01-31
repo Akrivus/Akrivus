@@ -63,7 +63,7 @@
 <NavArea>
   <Section id="whoami" title="Who Am I?">
     <div class="row">
-      <Card sizes={["8"]}>
+      <Card sizes={["12", "md-8"]}>
         <h5 slot="header" class="card-title">I'm Owen.</h5>
         <p  slot="content" class="card-text">
           I observe the world around me and think about ways to improve it. I envision
@@ -72,49 +72,49 @@
           for organizations by developing software that is reliable, scalable, and secure.
         </p>
       </Card>
-      <Card sizes={["4"]}>
+      <Card sizes={["12", "sm-6", "md-4"]}>
         <h5 slot="header" class="card-title">I solve problems.</h5>
         <p  slot="content" class="card-text">
           I immerse myself in the problem space to understand the challenges, which I plan and execute on by
           leveraging my skills and the talent of my team.
         </p>
       </Card>
-      <Card sizes={["4"]}>
+      <Card sizes={["12", "sm-6", "md-4"]}>
         <h5 slot="header" class="card-title">I'm talented.</h5>
         <p  slot="content" class="card-text">
           I've been programming since I was 12, and my journey from start-up to global enterprise has given me a
           sense of what works and what doesn't.
         </p>
       </Card>
-      <Card sizes={["4"]}>
+      <Card sizes={["12", "sm-6", "md-4"]}>
         <h5 slot="header" class="card-title">I'm adaptive.</h5>
         <p  slot="content" class="card-text">
           I work best when I'm closest to the challenge, where I can readily adjust my perspective and formulate
           the most decisive solutions.
         </p>
       </Card>
-      <Card sizes={["4"]}>
+      <Card sizes={["12", "sm-6", "md-4"]}>
         <h5 slot="header" class="card-title">I'm a team player.</h5>
         <p  slot="content" class="card-text">
           I look for opportunities to accomplish more by working with others, whether it's during caffeinated nights
           at the office or at home over a video call.
         </p>
       </Card>
-      <Card sizes={["4"]}>
+      <Card sizes={["12", "sm-6", "md-4"]}>
         <h5 slot="header" class="card-title">I'm an engineer.</h5>
         <p  slot="content" class="card-text">
           I'm proficient in Ruby, JavaScript, C#, but nothing is beyond my reach, I've worked on
           codebases and frameworks in C++, Python and Java.
         </p>
       </Card>
-      <Card sizes={["4"]}>
+      <Card sizes={["12", "sm-6", "md-4"]}>
         <h5 slot="header" class="card-title">I'm a full stack developer.</h5>
         <p  slot="content" class="card-text">
           I'm experienced with Ruby on Rails, ASP.NET Core, React, and Svelte, and I've deployed my solutions
           on Azure AKS and App Service, ECS, and Heroku.
         </p>
       </Card>
-      <Card sizes={["4"]}>
+      <Card sizes={["12", "sm-6", "md-4"]}>
         <h5 slot="header" class="card-title">I'm an entrepreneur.</h5>
         <p  slot="content" class="card-text">
           I took control of my destiny in 2017 by starting my own business, and learned the direct impact of my
@@ -126,97 +126,97 @@
 
   <Section id="myskills" title="My Skills">
     <div class="row">
-      <Card sizes={["3"]}>
+      <Card sizes={["6", "sm-4", "lg-3"]}>
         <h5 slot="header" class="card-title">Software Development</h5>
         <div slot="content" class="card-text">
           I develop software solutions that are reliable, scalable, and secure.
         </div>
       </Card>
-      <Card sizes={["3"]}>
+      <Card sizes={["6", "sm-4", "lg-3"]}>
         <h5 slot="header" class="card-title">Full-Stack Development</h5>
         <div slot="content" class="card-text">
           I build full-stack applications that enable organizations to succeed.
         </div>
       </Card>
-      <Card sizes={["3"]}>
+      <Card sizes={["6", "sm-4", "lg-3"]}>
         <h5 slot="header" class="card-title">Web Development</h5>
         <div slot="content" class="card-text">
           I write HTML, CSS, JavaScript, and develop with various frameworks.
         </div>
       </Card>
-      <Card sizes={["3"]}>
+      <Card sizes={["6", "sm-4", "lg-3"]}>
         <h5 slot="header" class="card-title">Cloud Infrastructure</h5>
         <div slot="content" class="card-text">
           I deploy and maintain services on Azure, Heroku, and Digital Ocean.
         </div>
       </Card>
-      <Card sizes={["3"]}>
+      <Card sizes={["6", "sm-4", "lg-3"]}>
         <h5 slot="header" class="card-title">Cloud Services</h5>
         <div slot="content" class="card-text">
           Docker, Kubernetes, Nginx, Azure AKS, Azure App Service, AWS ECS
         </div>
       </Card>
-      <Card sizes={["3"]}>
+      <Card sizes={["6", "sm-4", "lg-3"]}>
         <h5 slot="header" class="card-title">DevOps</h5>
         <div slot="content" class="card-text">
           CI/CD, GitHub Actions, Azure Pipelines, CircleCI, Travis CI
         </div>
       </Card>
-      <Card sizes={["3"]}>
+      <Card sizes={["6", "sm-4", "lg-3"]}>
         <h5 slot="header" class="card-title">Database Management</h5>
         <div slot="content" class="card-text">
           PostgreSQL, SQLite, MongoDB, Redis
         </div>
       </Card>
-      <Card sizes={["3"]}>
+      <Card sizes={["6", "sm-4", "lg-3"]}>
         <h5 slot="header" class="card-title">Integrating Security</h5>
         <div slot="content" class="card-text">
           MFA, SSO, RBAC, along with OWASP, GDPR, NIST and PCI standards
         </div>
       </Card>
-      <Card sizes={["3"]}>
+      <Card sizes={["6", "sm-4", "lg-3"]}>
         <h5 slot="header" class="card-title">Ruby</h5>
         <div slot="content" class="card-text">
           Ruby on Rails, Sinatra, RSpec, Capybara, DelayedJob, Resque
         </div>
       </Card>
-      <Card sizes={["3"]}>
+      <Card sizes={["6", "sm-4", "lg-3"]}>
         <h5 slot="header" class="card-title">C#/.NET</h5>
         <div slot="content" class="card-text">
           ASP.NET Core, Entity Framework, NUnit, Moq, Unity, WinForms
         </div>
       </Card>
-      <Card sizes={["3"]}>
+      <Card sizes={["6", "sm-4", "lg-3"]}>
         <h5 slot="header" class="card-title">JavaScript</h5>
         <div slot="content" class="card-text">
           React, Svelte, Vite, Vue, jQuery, Node.js, Express
         </div>
       </Card>
-      <Card sizes={["3"]}>
+      <Card sizes={["6", "sm-4", "lg-3"]}>
         <h5 slot="header" class="card-title">Artificial Intelligence</h5>
         <div slot="content" class="card-text">
           I leverage ChatGPT and OpenAI to maximize my productivity.
         </div>
       </Card>
-      <Card sizes={["3"]}>
+      <Card sizes={["6", "sm-4", "lg-3"]}>
         <h5 slot="header" class="card-title">Team Collaboration</h5>
         <div slot="content" class="card-text">
           I can collaborate with cross-functional teams to achieve goals.
         </div>
       </Card>
-      <Card sizes={["3"]}>
+      <Card sizes={["6", "sm-4", "lg-3"]}>
         <h5 slot="header" class="card-title">Technical Writing</h5>
         <div slot="content" class="card-text">
           I use my writing skills to document my work and share my knowledge.
         </div>
       </Card>
-      <Card sizes={["3"]}>
+      <Card sizes={["6", "sm-4", "lg-3"]}>
         <h5 slot="header" class="card-title">Project Management</h5>
         <div slot="content" class="card-text">
           I can plan, execute, and deliver projects on time and on budget.
         </div>
       </Card>
-      <Card sizes={["3"]}>
+      <Card sizes={["6", "sm-4", "lg-3"]}>
         <h5 slot="header" class="card-title">Continuous Learning</h5>
         <div slot="content" class="card-text">
           I adapt to new challenges by learning new skills and technologies.
@@ -227,7 +227,7 @@
   
   <Section id="myjourney" title="My Journey">
     <div class="row">
-      <ImageCard sizes={["12 6-md"]} top={sm || md} side={xxl} src={src_2012} alt="Eclipse Origins, an open source game written in Visual Basic.">
+      <ImageCard sizes={["12"]} top={xs || sm || md} side={xxl} src={src_2012} alt="Eclipse Origins, an open source game written in Visual Basic.">
         <div slot="header">
           <h5 class="card-title">Eclipse Origins</h5>
           <h6 class="card-title text-muted">2011 - 2014</h6>
@@ -248,7 +248,7 @@
           </ul>
         </div>
       </ImageCard>
-      <ImageCard sizes={["12 6-md"]} top={sm || md} side={xxl} src={src_2014} alt="KAGIC, a Steven Universe Minecraft mod.">
+      <ImageCard sizes={["12"]} top={xs || sm || md} side={xxl} src={src_2014} alt="KAGIC, a Steven Universe Minecraft mod.">
         <div slot="header">
           <h5 class="card-title">KAGIC</h5>
           <h6 class="card-title text-muted">2014 - 2016</h6>
@@ -265,13 +265,13 @@
             various YouTube Let's Plays and series.
           </p>
           <ul>
-            <li>Achieved over 300,000 downloads and a community of 13,000.</li>
+            <li>Achieved over 300,000 downloads, 13,000 players.</li>
             <li>Accumulated a total of 6,500,000 views on YouTube.</li>
             <li>Companion mods amassed over 700,000 downloads.</li>
           </ul>
         </div>
       </ImageCard>
-      <ImageCard sizes={["12 6-md"]} top={sm || md} side={xxl} src={src_2017} alt="Hacker's Holiday, a three-person development team.">
+      <ImageCard sizes={["12"]} top={xs || sm || md} side={xxl} src={src_2017} alt="Hacker's Holiday, a three-person development team.">
         <div slot="header">
           <h5 class="card-title">Hacker's Holiday</h5>
           <h6 class="card-title text-muted">2016 - 2017</h6>
@@ -288,13 +288,13 @@
             preference prediction.
           </p>
           <ul>
-            <li>Received the Liberty Area Chamber of Commerce 20under20 award.</li>
+            <li>Awarded Liberty Chamber of Commerce 20under20 award.</li>
             <li>Developed MVP that would go on to raise over $1,000,000.</li>
-            <li>Designed an IoT solution that led to a 40% spike in conversion.</li>
+            <li>Designed an IoT solution that increase conversion by 40%.</li>
           </ul>
         </div>
       </ImageCard>
-      <ImageCard sizes={["12 6-md"]} top={sm || md} side={xxl} src={src_2018} alt="Maruchan Instant Lunch over Trello">
+      <ImageCard sizes={["12"]} top={xs || sm || md} side={xxl} src={src_2018} alt="Maruchan Instant Lunch over Trello">
         <div slot="header">
           <h5 class="card-title">Order Coffee Online</h5>
           <h6 class="card-title text-muted">2017 - 2020</h6>
@@ -308,17 +308,17 @@
             Ocean and integrating Stripe for payments and Twilio for SMS
             notifications. The platform processed over $1,000,000 in orders,
             served 3,000 customers, and earned me recognition from the Liberty
-            Area Chamber of Commerce 20under20 award, culminating in its sale to
+            Chamber of Commerce 20under20 award, culminating in its sale to
             a local business owner amid the COVID-19 pandemic.
           </p>
           <ul>
-            <li>Received a second Liberty Chamber of Commerce 20under20 award.</li>
-            <li>Processed over $1,000,000 in sales, serving over 3,000 customers.</li>
-            <li>Orchestrated a successful exit during the COVID-19 pandemic.</li>
+            <li>Awarded Liberty Chamber of Commerce 20under20 award.</li>
+            <li>Processed over $1,000,000 in sales, over 3,000 customers.</li>
+            <li>Orchestrated a successful exit in 2020.</li>
           </ul>
         </div>
       </ImageCard>
-      <ImageCard sizes={["12 6-md"]} top={sm || md} side={xxl} src={src_2020} alt="VisualLive">
+      <ImageCard sizes={["12"]} top={xs || sm || md} side={xxl} src={src_2020} alt="VisualLive">
         <div slot="header">
           <h5 class="card-title">VisualLive</h5>
           <h6 class="card-title text-muted">2020 - 2021</h6>
@@ -335,14 +335,14 @@
             for AEC, leading to a lucrative acquisition by Unity Technologies.
           </p>
           <ul>
-            <li>Enabled efficient workflows by integrating with CRM.</li>
-            <li>Migrated cloud infrastructure from Heroku and AWS to Azure.</li>
-            <li>Maintained regulatory compliance with security standards and audits.</li>
-            <li>Powered VisualLive's position as a global leader in the AEC space.</li>
+            <li>Enabled efficient workflows with CRM integration.</li>
+            <li>Migrated cloud infrastructure from Heroku to Azure.</li>
+            <li>Maintained regulatory compliance and GDPR.</li>
+            <li>Powered a global leader in the AEC space.</li>
           </ul>
         </div>
       </ImageCard>
-      <ImageCard sizes={["12 6-md"]} top={sm || md} side={xxl} src={src_2021} alt="Unity Technologies">
+      <ImageCard sizes={["12"]} top={xs || sm || md} side={xxl} src={src_2021} alt="Unity Technologies">
         <div slot="header">
           <h5 class="card-title">Unity Technologies</h5>
           <h6 class="card-title text-muted">2021 - 2023</h6>
@@ -366,7 +366,7 @@
           </ul>
         </div>
       </ImageCard>
-      <ImageCard sizes={["12"]} top={sm || md} side={xxl} src={src_2023} alt="Owen passes a parting look into the distance">
+      <ImageCard sizes={["12"]} top={xs || sm || md} side={xxl} src={src_2023} alt="Owen passes a parting look into the distance">
         <div slot="header">
           <h5 class="card-title">The Journey Continues</h5>
           <h6 class="card-title text-muted">2023 - Present</h6>
