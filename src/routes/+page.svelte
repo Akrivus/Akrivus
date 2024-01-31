@@ -106,7 +106,7 @@
       I build full-stack applications that enable organizations to succeed.
     </QuarterCard>
     <QuarterCard title="Web Development">
-      I write HTML, CSS, and JavaScript powered by file servers or frameworks.
+      I write HTML, CSS, and JavaScript that is clean and ready to ship.
     </QuarterCard>
     <QuarterCard title="Cloud Infrastructure">
       I deploy and maintain services on Azure, Heroku, and Digital Ocean.
