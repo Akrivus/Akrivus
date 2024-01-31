@@ -4,10 +4,10 @@
   import Landing from '$lib/components/Landing.svelte';
   import ScrollButton from '$lib/components/nav/ScrollButton.svelte';
   import Portrait from '../lib/components/Portrait.svelte';
-  import Project from '$lib/components/Project.svelte';
 
   import Card from '$lib/components/cards/Card.svelte';
   import ImageCard from '$lib/components/cards/ImageCard.svelte';
+  import TopImageCard from '$lib/components/cards/image/TopImageCard.svelte';
 
   let xs, sm, md, lg, xl;
   let width = 0;
@@ -61,7 +61,7 @@
 </Landing>
 
 <NavArea>
-  <Section id="whoami" title="Who Am I?">
+  <Section id="about" title="Who I Am" link="About">
     <div class="row">
       <Card sizes={["12", "md-8"]}>
         <h5 slot="header" class="card-title">I'm Owen.</h5>
@@ -126,7 +126,7 @@
     </div>
   </Section>
 
-  <Section id="myskills" title="My Skills">
+  <Section id="skills" title="My Skills" link="Skills">
     <div class="row">
       <Card sizes={["6", "sm-4", "lg-3"]}>
         <h5 slot="header" class="card-title">Software Development</h5>
@@ -227,7 +227,7 @@
     </div>
   </Section>
   
-  <Section id="myjourney" title="My Journey">
+  <Section id="journey" title="My Journey" link="Journey">
     <div class="row">
       <ImageCard sizes={["12"]} top={xs || sm || md} side={xxl} src={src_2012} alt="Eclipse Origins, an open source game written in Visual Basic.">
         <div slot="header">
@@ -394,27 +394,45 @@
     </div>
   </Section>
   
-  <Section id="myprojects" title="My Projects">
-    <div class="row row-cols-1 row-cols-lg-3">
-      <Project icon="cloud" image="{portfolio}"
-        title="My Portfolio"
-        description="In 2024, I developed a new portfolio website to showcase my
-        skills and experience using SvelteKit, a new way to create single-page
-        web front-ends in JavaScript."
-        action="View Source Code"
-        actionHref="https://github.com/Akrivus/Akrivus"
-        />
-      <Project icon="brain" image="{mlagents}"
-        title="ML Agents"
-        description="Using Unity's ML-Agents, I'm developing a torque-driven
-        active ragdoll that responds to an LLM by replicating different poses and movements
-        for AI storytelling and filmmaking."
-        />
-      <Project icon="gamepad" image="{tides}"
-        title="AI Storytelling"
-        description="I'm developing a procedurally generated island with simulated erosion,
-        ecosystems, and civilizations that an AI storyteller with GPT-4 can explore."
-        />
+  <Section id="projects" title="My Projects" link="Projects">
+    <div class="row">
+      <TopImageCard src={portfolio} alt="My Portfolio" sizes={["12", "md-6", "lg-4"]}>
+        <div slot="header">
+          <h5 class="card-title">My Portfolio</h5>
+        </div>
+        <div slot="content">
+          <p class="card-text">
+            In 2024, I developed a new portfolio website to showcase my skills and
+            experience using SvelteKit, a new way to create single-page web
+            front-ends in JavaScript.
+          </p>
+          <i class="fab fa-github" /> 
+          <a href="https://github.com/Akrivus/Akrivus" class="icon-link">View On GitHub</a>
+      </TopImageCard>
+      <TopImageCard src={mlagents} alt="Confable" sizes={["12", "md-6", "lg-4"]}>
+        <div slot="header">
+          <h5 class="card-title">Confable</h5>
+        </div>
+        <div slot="content">
+          <p class="card-text">
+            Using Unity's ML-Agents, I'm developing torque-driven active ragdolls
+            that respond to commands by replicating poses and movements using embeddings
+            for AI storytelling and filmmaking.
+          </p>
+      </TopImageCard>
+      <TopImageCard src={tides} alt="Living Legend" sizes={["12", "md-6", "lg-4"]}>
+        <div slot="header">
+          <h5 class="card-title">Living Legend</h5>
+        </div>
+        <div slot="content">
+          <p class="card-text">
+            I'm developing a procedurally generated island with simulated noise,
+            ecosystems, and civilizations that GPT can use as a basis to craft
+            epic stories and compelling narratives.
+          </p>
+          <i class="fab fa-github" /> 
+          <a href="https://github.com/Akrivus/LivingLegend" class="icon-link">View On GitHub</a>
+      </TopImageCard>
     </div>
   </Section>
 </NavArea>

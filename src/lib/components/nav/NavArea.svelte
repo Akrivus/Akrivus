@@ -7,7 +7,7 @@
   <ul class="navbar-nav flex-row w-100 justify-content-end">
     {#each $navlinkStore as navlink}
       <li class="nav-item text-nowrap">
-        <a class="nav-link px-3 text-white" href="#{navlink.id}">{navlink.title}</a>
+        <a class="nav-link px-3 text-white" href="#{navlink.id}">{navlink.link}</a>
       </li>
     {/each}
   </ul>

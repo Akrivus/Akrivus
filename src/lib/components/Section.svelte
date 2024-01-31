@@ -1,11 +1,13 @@
 <script>
   export let title = "Featured";
   export let id = null;
+  export let link = null;
 
   import { navlinkStore } from '$lib/util/NavLinkStore.js';
 
   id = id ?? title.toLowerCase();
-  navlinkStore.update((navlinks) => navlinks = [...navlinks, {id, title}]);
+  link = link ?? title;
+  navlinkStore.update((navlinks) => navlinks = [...navlinks, {id, link}]);
 </script>
 
 <section id="{id}">
