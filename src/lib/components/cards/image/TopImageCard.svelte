@@ -1,4 +1,6 @@
 <script>
+  export let src;
+  export let alt;
   export let sizes = ["4"];
 
   const size = sizes.join(" col-");
@@ -6,6 +8,7 @@
 
 <div class="col-{size} mb-3">
   <div class="card h-100">
+    <img {src} {alt} class="card-img-top" />
     <div class="card-header">
       <slot name="header">
         <h5 class="card-title">Card title</h5>

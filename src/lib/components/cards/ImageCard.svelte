@@ -1,35 +1,40 @@
 <script>
+  import CardAndImage from "$lib/components/cards/image/CardAndImage.svelte";
+  import SideImageCard from "$lib/components/cards/image/SideImageCard.svelte";
+  import TopImageCard from "$lib/components/cards/image/TopImageCard.svelte";
+
   export let src;
   export let alt;
-  export let right = false;
-  export let size = 4;
-
-  import CardImage from '$lib/components/cards/CardImage.svelte';
-
-  const left = !right;
+  export let sizes = ["4"];
+  export let top;
+  export let side;
 </script>
 
-<div class="col-{size} mb-3">
-  <div class="card h-100">
-    <div class="row g-0">
-      {#if left}
-        <CardImage {src} {alt} {left} />
-      {/if}
-      <div class="col-8">
-        <div class="card-header">
-          <slot name="header">
-            <h5 class="card-title">Card title</h5>
-          </slot>
-        </div>
-        <div class="card-body">
-          <slot name="content">
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-          </slot>
-        </div>
-      </div>
-      {#if right}
-        <CardImage {src} {alt} {left} />
-      {/if}
-    </div>
-  </div>
-</div>
+{#if top}
+  <TopImageCard {src} {alt} {sizes}>
+    <slot slot="header" name="header">
+      <h5 class="card-title">Card title</h5>
+    </slot>
+    <slot slot="content" name="content">
+      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+    </slot>
+  </TopImageCard>
+{:else if side}
+  <SideImageCard {src} {alt} {sizes}>
+    <slot slot="header" name="header">
+      <h5 class="card-title">Card title</h5>
+    </slot>
+    <slot slot="content" name="content">
+      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+    </slot>
+  </SideImageCard>
+{:else}
+  <CardAndImage {src} {alt} {sizes}>
+    <slot slot="header" name="header">
+      <h5 class="card-title">Card title</h5>
+    </slot>
+    <slot slot="content" name="content">
+      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+    </slot>
+  </CardAndImage>
+{/if}
