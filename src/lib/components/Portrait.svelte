@@ -3,15 +3,7 @@
 </script>
 
 <style>
-  @media (min-width: 576px)
-  {
-    .portrait
-    {
-      width: 20vw;
-    }
-  }
-
-  @media (min-width: 768px)
+  @media (max-width: 768px)
   {
     .portrait
     {
