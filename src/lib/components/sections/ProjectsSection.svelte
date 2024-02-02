@@ -6,6 +6,7 @@
   import src_livinglegend from "$lib/images/projects/livinglegend.png";
   import src_photogo from "$lib/images/projects/photogo.png";
   import src_chatws from "$lib/images/projects/chatws.png";
+  import src_mobimenu from "$lib/images/projects/mobimenu.png";
   import src_comingsoon from "$lib/images/projects/comingsoon.png";
   import src_restfulcraft from "$lib/images/projects/restfulcraft.png";
   import src_coffeecraft from "$lib/images/projects/coffeecraft.png";
@@ -53,7 +54,7 @@
       <a href="https://github.com/Akrivus/ChatWS" class="icon-link">View On GitHub</a>
     </div>
   </ThirdImageCard>
-  <ThirdImageCard title="MobiMenu" src={src_comingsoon} alt="Image coming soon.">
+  <ThirdImageCard title="MobiMenu" src={src_mobimenu} alt="Image coming soon.">
     <p slot="body">
       Ruby powered display server for restaurants and cafes who don't have a
       TV with picture mode, but do have a spare Raspberry Pi 4 laying around.
