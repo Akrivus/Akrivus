@@ -7,7 +7,7 @@
   import src_photogo from "$lib/images/projects/photogo.png";
   import src_chatws from "$lib/images/projects/chatws.png";
   import src_mobimenu from "$lib/images/projects/mobimenu.png";
-  import src_comingsoon from "$lib/images/projects/comingsoon.png";
+  import src_blockparty from "$lib/images/projects/blockparty.png";
   import src_restfulcraft from "$lib/images/projects/restfulcraft.png";
   import src_coffeecraft from "$lib/images/projects/coffeecraft.png";
   import src_kagic from "$lib/images/projects/kagic.png";
@@ -34,7 +34,7 @@
       <a href="https://github.com/Akrivus/LivingLegend" class="icon-link">View On GitHub</a>
     </div>
   </ThirdImageCard>
-  <ThirdImageCard title="PhotoGo" src={src_photogo} alt="Image coming soon.">
+  <ThirdImageCard title="PhotoGo" src={src_photogo} alt="PhotoGo, an image sharing website.">
     <p slot="body">
       Upload, share, and comment on photos with PhotoGo, a social media
       platform powered by Ruby on Rails and CarrierWave.
@@ -44,7 +44,7 @@
       <a href="https://github.com/Akrivus/PhotoGo" class="icon-link">View On GitHub</a>
     </div>
   </ThirdImageCard>
-  <ThirdImageCard title="ChatWS" src={src_chatws} alt="Image coming soon.">
+  <ThirdImageCard title="ChatWS" src={src_chatws} alt="ChatWS, a chat application.">
     <p slot="body">
       Send messages to friends with ChatWS, a chat application built with
       Sinatra to demonstrate proficiency in Ruby and with WebSockets.
@@ -54,7 +54,7 @@
       <a href="https://github.com/Akrivus/ChatWS" class="icon-link">View On GitHub</a>
     </div>
   </ThirdImageCard>
-  <ThirdImageCard title="MobiMenu" src={src_mobimenu} alt="Image coming soon.">
+  <ThirdImageCard title="MobiMenu" src={src_mobimenu} alt="MobiMenu, a display control dashboard.">
     <p slot="body">
       Ruby powered display server for restaurants and cafes who don't have a
       TV with picture mode, but do have a spare Raspberry Pi 4 laying around.
@@ -64,7 +64,7 @@
       <a href="https://github.com/Akrivus/MobiMenu" class="icon-link">View On GitHub</a>
     </div>
   </ThirdImageCard>
-  <ThirdImageCard title="RESTfulCraft" src={src_restfulcraft} alt="Image coming soon.">
+  <ThirdImageCard title="RESTfulCraft" src={src_restfulcraft} alt="RESTfulCraft with Postman open to assist in demonstration.">
     <p slot="body">
       An attempt to teach RESTful API design using Minecraft as a model.
       Blocks are resources, and the world is your API endpoint.
@@ -74,7 +74,7 @@
       <a href="https://github.com/Akrivus/RESTfulCraft" class="icon-link">View On GitHub</a>
     </div>
   </ThirdImageCard>
-  <ThirdImageCard title="Block Party" src={src_comingsoon} alt="Image coming soon.">
+  <ThirdImageCard title="Block Party" src={src_blockparty} alt="Tomio, an animated cat girl, 'As a Moe, my job is to do something, but my developer hasn't thought of what yet.'">
     <p slot="body">
       A spiritual successor to my popular KAGIC mod, Block Party adds <i>tsukumogami</i>,
       blocks that come to life and enjoy the world around them.
@@ -84,7 +84,7 @@
       <a href="https://github.com/Akrivus/BlockParty" class="icon-link">View On GitHub</a>
     </div>
   </ThirdImageCard>
-  <ThirdImageCard title="CoffeeCraft" src={src_coffeecraft} alt="Image coming soon.">
+  <ThirdImageCard title="CoffeeCraft" src={src_coffeecraft} alt="A coffee roaster next to a coffee grinder in Minecraft.">
     <p slot="body">
       A Minecraft mod that introduces the coffee industry from the ground
       up. Grow coffee beans, roast them, build your own cafe and sell to villagers.
@@ -94,7 +94,7 @@
       <a href="https://github.com/Akrivus/CoffeeCraft" class="icon-link">View On GitHub</a>
     </div>
   </ThirdImageCard>
-  <ThirdImageCard title="KAGIC" src={src_kagic} alt="Image coming soon.">
+  <ThirdImageCard title="KAGIC" src={src_kagic} alt="A Minecraft tundra with three Ruby guards staring off into the distance.">
     <p slot="body">
       A popular Minecraft mod that introduces holographic guardians called
       Gems. Gems are born to serve, and read chat with rule-based NLP.
