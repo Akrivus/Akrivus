@@ -4,7 +4,10 @@
 
   import src_portfolio from "$lib/images/projects/portfolio.png";
   import src_livinglegend from "$lib/images/projects/livinglegend.png";
+  import src_photogo from "$lib/images/projects/photogo.png";
+  import src_chatws from "$lib/images/projects/chatws.png";
   import src_comingsoon from "$lib/images/projects/comingsoon.png";
+  import src_restfulcraft from "$lib/images/projects/restfulcraft.png";
   import src_coffeecraft from "$lib/images/projects/coffeecraft.png";
   import src_kagic from "$lib/images/projects/kagic.png";
 </script>
@@ -30,7 +33,7 @@
       <a href="https://github.com/Akrivus/LivingLegend" class="icon-link">View On GitHub</a>
     </div>
   </ThirdImageCard>
-  <ThirdImageCard title="PhotoGo" src={src_comingsoon} alt="Image coming soon.">
+  <ThirdImageCard title="PhotoGo" src={src_photogo} alt="Image coming soon.">
     <p slot="body">
       Upload, share, and comment on photos with PhotoGo, a social media
       platform powered by Ruby on Rails and CarrierWave.
@@ -40,7 +43,7 @@
       <a href="https://github.com/Akrivus/PhotoGo" class="icon-link">View On GitHub</a>
     </div>
   </ThirdImageCard>
-  <ThirdImageCard title="ChatWS" src={src_comingsoon} alt="Image coming soon.">
+  <ThirdImageCard title="ChatWS" src={src_chatws} alt="Image coming soon.">
     <p slot="body">
       Send messages to friends with ChatWS, a chat application built with
       Sinatra to demonstrate proficiency in Ruby and with WebSockets.
@@ -60,7 +63,7 @@
       <a href="https://github.com/Akrivus/MobiMenu" class="icon-link">View On GitHub</a>
     </div>
   </ThirdImageCard>
-  <ThirdImageCard title="RESTfulCraft" src={src_comingsoon} alt="Image coming soon.">
+  <ThirdImageCard title="RESTfulCraft" src={src_restfulcraft} alt="Image coming soon.">
     <p slot="body">
       An attempt to teach RESTful API design using Minecraft as a model.
       Blocks are resources, and the world is your API endpoint.
