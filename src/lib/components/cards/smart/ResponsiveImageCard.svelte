@@ -7,7 +7,7 @@
   import ImageCard from "$lib/components/cards/ImageCard.svelte";
 
   let xs, sm, md, lg, xl;
-  let width = 0;
+  let width = 1920;
   $: xs = width  <   576;
   $: sm = width  >=  576 && width <  768;
   $: md = width  >=  768 && width <  992;
