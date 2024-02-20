@@ -2,6 +2,7 @@
   import Section from "$lib/components/Section.svelte";
   import ThirdImageCard from "$lib/components/cards/smart/ThirdImageCard.svelte";
 
+  import src_confable from "$lib/images/projects/confable.gif";
   import src_portfolio from "$lib/images/projects/portfolio.png";
   import src_livinglegend from "$lib/images/projects/livinglegend.png";
   import src_photogo from "$lib/images/projects/photogo.png";
@@ -9,11 +10,20 @@
   import src_mobimenu from "$lib/images/projects/mobimenu.png";
   import src_blockparty from "$lib/images/projects/blockparty.png";
   import src_restfulcraft from "$lib/images/projects/restfulcraft.png";
-  import src_coffeecraft from "$lib/images/projects/coffeecraft.png";
   import src_kagic from "$lib/images/projects/kagic.png";
 </script>
 
 <Section id="projects" title="My Projects" link="Projects">
+  <ThirdImageCard title="Confable" src={src_confable} alt="Machinima Man's posture and mouth are driven by what he says.">
+    <p slot="body">
+      Confable is a tool for creating machinima, or movies made in video games,
+      using LLMs to drive character animation, dialogue, and camera movement.
+    </p>
+    <div slot="link">
+      <i class="fab fa-github" /> 
+      <a href="https://github.com/Akrivus/Confable" class="icon-link text-muted text-decoration-none">Coming Soon</a>
+    </div>
+  </ThirdImageCard>
   <ThirdImageCard title="My Portfolio" src={src_portfolio} alt="Early thumbnail of my portfolio.">
     <p slot="body">
       In 2024, I developed a new portfolio website to showcase my skills and
@@ -26,8 +36,8 @@
   </ThirdImageCard>
   <ThirdImageCard title="Living Legend" src={src_livinglegend} alt="Procedurally generated island with tide and erosion.">
     <p slot="body">
-      I'm developing a procedurally generated island with simulated noise,
-      ecosystems, and civilizations that GPT can use to string together epics.
+      Living Legend is a procedurally generated island with tide, erosion, ecosystems,
+      and civilizations that uses GPT to craft an entertaining story for the player.
     </p>
     <div slot="link">
       <i class="fab fa-github" /> 
@@ -76,22 +86,12 @@
   </ThirdImageCard>
   <ThirdImageCard title="Block Party" src={src_blockparty} alt="Tomio, an animated cat girl, 'As a Moe, my job is to do something, but my developer hasn't thought of what yet.'">
     <p slot="body">
-      A spiritual successor to my popular KAGIC mod, Block Party adds <i>tsukumogami</i>,
-      blocks that come to life and enjoy the world around them.
+      Block Party introduces 300 uniquely designed characters, with an
+      LLM-driven dialogue system for content creators to use in their videos.
     </p>
     <div slot="link">
       <i class="fab fa-github" /> 
       <a href="https://github.com/Akrivus/BlockParty" class="icon-link">View On GitHub</a>
-    </div>
-  </ThirdImageCard>
-  <ThirdImageCard title="CoffeeCraft" src={src_coffeecraft} alt="A coffee roaster next to a coffee grinder in Minecraft.">
-    <p slot="body">
-      A Minecraft mod that introduces the coffee industry from the ground
-      up. Grow coffee beans, roast them, build your own cafe and sell to villagers.
-    </p>
-    <div slot="link">
-      <i class="fab fa-github" /> 
-      <a href="https://github.com/Akrivus/CoffeeCraft" class="icon-link">View On GitHub</a>
     </div>
   </ThirdImageCard>
   <ThirdImageCard title="KAGIC" src={src_kagic} alt="A Minecraft tundra with three Ruby guards staring off into the distance.">
