@@ -9,5 +9,5 @@ Here's some facts about me:
 - 👶 I'm a dad!
 
 ### Links
-- **[Resume](./static/Owen%20Adrian%20-%20Resume.pdf)**
+- **[Resume](./static/Owen-Adrian-Software-Engineer-Resume.pdf)**
 - **[README](./docs/README.md)**

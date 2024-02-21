@@ -28,7 +28,7 @@
       enabling success using my technical expertise to produce reliable, scalable,
       and secure cloud solutions.
     </p>
-    <a href="Owen Adrian - Resume.pdf" class="btn btn-lg btn-success">Résumé</a>
+    <a href="Owen-Adrian-Software-Engineer-Resume.pdf" class="btn btn-lg btn-success">Résumé</a>
     <a href="https://linkedin.com/in/owen-adrian" class="btn btn-lg btn-success" aria-label="LinkedIn"><i class="fab fa-linkedin" /></a>
     <a href="https://github.com/Akrivus" class="btn btn-lg btn-success" aria-label="GitHub"><i class="fab fa-github" /></a>
     <ScrollButton />
