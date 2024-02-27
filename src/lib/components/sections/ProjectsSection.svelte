@@ -21,7 +21,7 @@
     </p>
     <div slot="link">
       <i class="fab fa-github" /> 
-      <p class="icon-link text-muted text-decoration-none">Under License</p>
+      <p class="icon-link text-muted text-decoration-none mb-0">Under License</p>
     </div>
   </ThirdImageCard>
   <ThirdImageCard title="My Portfolio" src={src_portfolio} alt="Early thumbnail of my portfolio.">
