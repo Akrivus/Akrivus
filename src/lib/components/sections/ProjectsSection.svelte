@@ -21,7 +21,7 @@
     </p>
     <div slot="link">
       <i class="fab fa-github" /> 
-      <a href="https://github.com/Akrivus/Confable" class="icon-link text-muted text-decoration-none">Coming Soon</a>
+      <p class="icon-link text-muted text-decoration-none">Under License</p>
     </div>
   </ThirdImageCard>
   <ThirdImageCard title="My Portfolio" src={src_portfolio} alt="Early thumbnail of my portfolio.">
