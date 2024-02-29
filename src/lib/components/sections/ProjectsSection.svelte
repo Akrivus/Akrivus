@@ -24,6 +24,16 @@
       <p class="icon-link text-muted text-decoration-none mb-0">Under License</p>
     </div>
   </ThirdImageCard>
+  <ThirdImageCard title="Block Party" src={src_blockparty} alt="Tomio, an animated cat girl, 'As a Moe, my job is to do something, but my developer hasn't thought of what yet.'">
+    <p slot="body">
+      Block Party introduces 300 uniquely designed characters, with an
+      LLM-driven dialogue system for content creators to use in their videos.
+    </p>
+    <div slot="link">
+      <i class="fab fa-github" /> 
+      <a href="https://github.com/Akrivus/BlockParty" class="icon-link">View On GitHub</a>
+    </div>
+  </ThirdImageCard>
   <ThirdImageCard title="My Portfolio" src={src_portfolio} alt="Early thumbnail of my portfolio.">
     <p slot="body">
       In 2024, I developed a new portfolio website to showcase my skills and
@@ -82,16 +92,6 @@
     <div slot="link">
       <i class="fab fa-github" /> 
       <a href="https://github.com/Akrivus/RESTfulCraft" class="icon-link">View On GitHub</a>
-    </div>
-  </ThirdImageCard>
-  <ThirdImageCard title="Block Party" src={src_blockparty} alt="Tomio, an animated cat girl, 'As a Moe, my job is to do something, but my developer hasn't thought of what yet.'">
-    <p slot="body">
-      Block Party introduces 300 uniquely designed characters, with an
-      LLM-driven dialogue system for content creators to use in their videos.
-    </p>
-    <div slot="link">
-      <i class="fab fa-github" /> 
-      <a href="https://github.com/Akrivus/BlockParty" class="icon-link">View On GitHub</a>
     </div>
   </ThirdImageCard>
   <ThirdImageCard title="KAGIC" src={src_kagic} alt="A Minecraft tundra with three Ruby guards staring off into the distance.">
