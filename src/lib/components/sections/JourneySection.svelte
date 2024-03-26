@@ -14,7 +14,7 @@
 <Section id="journey" title="My Journey" link="Journey">
   <ResponsiveImageCard title="Eclipse Origins" dates="2011 - 2014" src={src_2012} alt="Eclipse Origins, an open source game written in Visual Basic.">
     <p slot="body">
-      As a 11-year-old kid on the internet in 2011, I discovered
+      In 2011 (I tell stories chronologically), I discovered
       TouchOfDeath, an online community dedicated to developing MMORPG
       games in Visual Basic 6 using Eclipse Origins. Through diligent
       self-learning and experimentation, I implemented an authentication
@@ -33,9 +33,9 @@
       such as KAGIC, which introduced holographic guardians called Gems;
       Mob Mash, featuring a dozen new enemies; and CoffeeCraft, which focused
       on coffee cultivation and trade. In the most popular project, KAGIC, I
-      implemented core features like Gem creation and commands using an
-      NLP model for chat interaction, resulting in over 300,000 downloads,
-      a 13,000-strong community, and widespread visibility through
+      implemented core features like Gem creation and commands using OpenNLP
+      for token, POS tag ,and sentence extraction. KAGIC garnered over
+      300,000 downloads, a 13,000-strong community, and widespread visibility through
       various YouTube Let's Plays and series.
     </p>
     <ul slot="list">
@@ -49,11 +49,9 @@
       I conceived the idea of Hacker's Holiday, a seasonal hackathon
       where my talented friend group and I would tackle local
       community challenges. Through late-night brainstorming sessions
-      fueled by caffeine, we developed solutions such as Downtown Connect,
-      an event app for Historic Downtown Liberty, an online ordering
+      fueled by caffeine and wings, we developed an online ordering
       system for a local coffee shop that evolved into Order Coffee
-      Online, and an IoT solution for sales forecasting and user
-      preference prediction.
+      Online, and an IoT solution for sales forecasting and user prediction.
     </p>
     <ul slot="list">
       <li>Awarded Liberty Chamber of Commerce 20under20 award.</li>
@@ -112,14 +110,14 @@
     <ul slot="list">
       <li>Increased market share by integrating VisualLive into UIC.</li>
       <li>Slashed hosting costs by 30% with a new scaling strategy.</li>
-      <li>Improved performance by 40% with a new 3D model converter.</li>
+      <li>Improved performance by up to 90% with a new 3D model converter.</li>
     </ul>
   </ResponsiveImageCard>
   <ResponsiveImageCard title="The Journey Continues" dates="2023 - Present" src={src_2023} alt="Owen looks into the distance">
     <p slot="body">
       Following Unity's restructuring in 2023, I embraced the market
       downturn as an opportunity for reflection and exploration. While
-      job-hunting, I continue to develop my portfolio website with new
+      job-hunting, I continue to develop my portfolio with new
       ideas and use GPT and simulated environments in Unity to create
       immersive narratives. I'm focused on seeking new opportunities
       aligned with my skills and interests, upskilling, sharing my
@@ -129,7 +127,7 @@
     <ul slot="list">
       <li>Seeking new opportunities to exercise skills and gain new ones.</li>
       <li>Using GPT to craft compelling narratives about simulated worlds.</li>
-      <li>Developing a portfolio website to showcase my skills.</li>
+      <li>Developed a portfolio website to showcase my skills.</li>
     </ul>
   </ResponsiveImageCard>
 </Section>

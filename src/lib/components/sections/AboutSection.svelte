@@ -24,8 +24,7 @@
   </ThirdCard>
   <ThirdCard title="I'm a full stack developer.">
     I have experience with Ruby on Rails, ASP.NET Core, and JavaScript,
-    deploying my solutions on various platforms, including Azure AKS and
-    App Service, ECS, and Heroku.
+    deploying my solutions on various platforms, including Azure, AWS, and Heroku.
   </ThirdCard>
   <ThirdCard title="I solve problems.">
     I immerse myself in the problem space to understand the challenges, plan, and execute by
