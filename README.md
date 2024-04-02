@@ -1,12 +1,11 @@
 ## About Me
-I'm Owen and I love learning about technology, history, and how all of those things mesh together. It's no surprise that my innovative and interpretative problem solving process gravitated me towards software engineering, which I use to realize my dreams and pave a path for others.
+I'm Owen and I love learning about technology, history, and how all of those things mesh together. It's no surprise that my innovative and interpretative problem solving process gravitated me towards software engineering, which I used to realize my dreams and now use to pave a path for others to follow in their journey for success.
 
 Here's some facts about me:
-- 🔭 While I search for my next long-term project, I'm trying new things to freshen my craft.
-- 🎮 I'm experimenting with LLMs in video games.
-- 🪴 I grow peppers and strawberries on my balcony with a hydroponic system I built myself.
+- 🔭 I work primarily in C#, but I miss developing in Ruby.
+- 🎮 I experiment a lot with LLMs in video games.
+- 🪴 I grow herbs in a vertical farm on my balcony.
 - ☕ I have an espresso machine.
-- 👶 I'm a dad!
 
 ### Links
 - **[Resume](./static/Owen-Adrian-Software-Engineer-Resume.pdf)**
