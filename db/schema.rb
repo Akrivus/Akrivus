@@ -10,12 +10,9 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.1].define(version: 2024_01_26_200811) do
-  create_schema "heroku_ext"
-
+ActiveRecord::Schema[7.1].define(version: 2024_04_16_182107) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "cube"
-  enable_extension "pg_stat_statements"
   enable_extension "plpgsql"
 
   create_table "experiences", force: :cascade do |t|
@@ -36,6 +33,16 @@ ActiveRecord::Schema[7.1].define(version: 2024_01_26_200811) do
     t.bigint "skill_id", null: false
     t.index ["experience_id", "skill_id"], name: "index_experiences_skills_on_experience_id_and_skill_id"
     t.index ["skill_id", "experience_id"], name: "index_experiences_skills_on_skill_id_and_experience_id"
+  end
+
+  create_table "games", force: :cascade do |t|
+    t.string "slug"
+    t.string "name"
+    t.string "company"
+    t.string "version"
+    t.boolean "hidden"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
   end
 
   create_table "skills", force: :cascade do |t|

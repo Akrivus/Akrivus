@@ -1,16 +1,19 @@
-def render_svelte
+def render_svelte_app env
   path = Rails.root.join('public/index.html')
   $svelte = File.read(path) if $svelte.nil?
-  return $svelte
+  return [200, {}, $svelte]
 end
 
 Rails.application.routes.draw do
-  resources :experiences
-  resources :skills
-  resources :stories
+  get 'admin' => 'trestle/dashboard#index'
+  get 'health' => 'rails/health#show', as: :rails_health_check
 
-  get "up" => "rails/health#show", as: :rails_health_check
-  get "admin" => "trestle/dashboard#index"
+  get 'games' => 'games#index'
+  get 'games/:slug' => 'games#show'
+  
+  get 'games/:slug/Build/unity.data' => 'games#unity_data_gz'
+  get 'games/:slug/Build/unity.framework.js' => 'games#unity_framework_js_gz'
+  get 'games/:slug/Build/unity.wasm' => 'games#unity_wasm_gz'
 
-  root to: -> (env) { [200, {}, [render_svelte]] }
+  root to: -> (env) { render_svelte_app(env) }
 end
