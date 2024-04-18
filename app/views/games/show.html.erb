@@ -58,11 +58,11 @@
 
       var gameUrl = "<%= game.slug %>"
       var buildUrl = gameUrl + "/Build";
-      var loaderUrl = buildUrl + "/<%= game.slug %>.loader.js";
+      var loaderUrl = buildUrl + "/unity.loader.js";
       var config = {
-        dataUrl: buildUrl + "/<%= game.slug %>.data",
-        frameworkUrl: buildUrl + "/<%= game.slug %>.framework.js",
-        codeUrl: buildUrl + "/<%= game.slug %>.wasm",
+        dataUrl: buildUrl + "/unity.data.gz",
+        frameworkUrl: buildUrl + "/unity.framework.js.gz",
+        codeUrl: buildUrl + "/unity.wasm.gz",
         streamingAssetsUrl: gameUrl + "/StreamingAssets",
         companyName: "<%= game.company %>",
         productName: "<%= game.name %>",

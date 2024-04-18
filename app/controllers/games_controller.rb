@@ -11,18 +11,15 @@ class GamesController < ApplicationController
   end
   
   def unity_data_gz
-    content_type 'application/octet-stream'
-    send_file gz_path('data')
+    send_file gz_path('data'), type: 'application/octet-stream'
   end
 
   def unity_framework_js_gz
-    content_type 'application/javascript'
-    send_file gz_path('framework.js')
+    send_file gz_path('framework.js'), type: 'application/javascript'
   end
 
   def unity_wasm_gz
-    content_type 'application/wasm'
-    send_file gz_path('wasm')
+    send_file gz_path('wasm'), type: 'application/wasm'
   end
 
   private
@@ -38,6 +35,6 @@ class GamesController < ApplicationController
   def gz_path file
     response.headers['Content-Encoding'] = 'gzip'
 
-    Rails.root.join("public/games/#{game.slug}/Build/#{game.slug}.#{file}.gz")
+    Rails.root.join("public/games/#{game.slug}/Build/unity.#{file}")
   end
 end

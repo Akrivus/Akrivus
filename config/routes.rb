@@ -11,9 +11,9 @@ Rails.application.routes.draw do
   get 'games' => 'games#index'
   get 'games/:slug' => 'games#show'
   
-  get 'games/:slug/Build/:slug.data' => 'games#unity_data_gz'
-  get 'games/:slug/Build/:slug.framework.js' => 'games#unity_framework_js_gz'
-  get 'games/:slug/Build/:slug.wasm' => 'games#unity_wasm_gz'
+  get 'games/:slug/Build/unity.data.gz' => 'games#unity_data_gz'
+  get 'games/:slug/Build/unity.framework.js.gz' => 'games#unity_framework_js_gz'
+  get 'games/:slug/Build/unity.wasm.gz' => 'games#unity_wasm_gz'
 
   root to: -> (env) { render_svelte_app(env) }
 end
