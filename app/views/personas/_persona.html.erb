@@ -1,0 +1,47 @@
+<div id="<%= dom_id persona %>">
+  <p>
+    <strong>Model:</strong>
+    <%= persona.model %>
+  </p>
+
+  <p>
+    <strong>Voice:</strong>
+    <%= persona.voice %>
+  </p>
+
+  <p>
+    <strong>Name:</strong>
+    <%= persona.name %>
+  </p>
+
+  <p>
+    <strong>Personalprompt:</strong>
+    <%= persona.personalPrompt %>
+  </p>
+
+  <p>
+    <strong>Guidanceprompt:</strong>
+    <%= persona.guidancePrompt %>
+  </p>
+
+  <p>
+    <strong>Color:</strong>
+    <%= persona.color %>
+  </p>
+
+  <p>
+    <strong>Avatarurl:</strong>
+    <%= persona.avatarUrl %>
+  </p>
+
+  <p>
+    <strong>Avatar:</strong>
+    <%= link_to persona.avatar.filename, persona.avatar if persona.avatar.attached? %>
+  </p>
+
+  <p>
+    <strong>Background:</strong>
+    <%= link_to persona.background.filename, persona.background if persona.background.attached? %>
+  </p>
+
+</div>

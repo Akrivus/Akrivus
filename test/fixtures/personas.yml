@@ -1,0 +1,19 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  model: MyString
+  voice: MyString
+  name: MyString
+  personalPrompt: MyString
+  guidancePrompt: MyString
+  color: MyString
+  avatarUrl: MyString
+
+two:
+  model: MyString
+  voice: MyString
+  name: MyString
+  personalPrompt: MyString
+  guidancePrompt: MyString
+  color: MyString
+  avatarUrl: MyString

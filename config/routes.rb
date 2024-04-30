@@ -5,6 +5,8 @@ def render_svelte_app env
 end
 
 Rails.application.routes.draw do
+  resources :personas
+  
   get 'admin' => 'trestle/dashboard#index'
   get 'health' => 'rails/health#show', as: :rails_health_check
 
