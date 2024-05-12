@@ -1,6 +1,6 @@
 {
-    "name": "Gino Demo",
-    "short_name": "Gino Demo",
+    "name": "Demo",
+    "short_name": "Demo",
     "start_url": "index.html",
     "display": "fullscreen",
     "background_color": "#231F20",

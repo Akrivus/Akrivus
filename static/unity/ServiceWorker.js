@@ -1,4 +1,4 @@
-const cacheName = "Syntreno-Gino Demo-0.1";
+const cacheName = "Syntreno-Demo-f1b1b3b0-1b3b-4b1b-9b1b-1b3b1b3b1b3b";
 const contentToCache = [
     "Build/unity.loader.js",
     "Build/unity.framework.js",
