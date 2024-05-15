@@ -1,5 +1,0 @@
-<ul>
-  <% Games.where(hidden: false).each do |game| %>
-    <li><%= link_to(game.name, game) %></li>
-  <% end %>
-</ul>

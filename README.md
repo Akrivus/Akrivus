@@ -9,4 +9,3 @@ Here's some facts about me:
 
 ### Links
 - **[Resume](./static/Owen-Adrian-Software-Engineer-Resume.pdf)**
-- **[README](./docs/README.md)**
