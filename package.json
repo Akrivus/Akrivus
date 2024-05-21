@@ -16,5 +16,8 @@
 		"svelte-markdown": "^0.4.1",
 		"vite": "^5.0.3"
 	},
-	"type": "module"
+	"type": "module",
+	"dependencies": {
+		"@sveltestrap/sveltestrap": "^6.2.7"
+	}
 }
