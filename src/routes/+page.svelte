@@ -8,9 +8,9 @@
   import src_restfulcraft from '$lib/images/projects/restfulcraft.png';
   import src_portfolio from '$lib/images/projects/portfolio.png';
 
-  import src_chatws from '$lib/images/projects/chatws.png';
   import src_photogo from '$lib/images/projects/photogo.png';
   import src_mobimenu from '$lib/images/projects/mobimenu.png';
+  import src_oco from '$lib/images/projects/oco.png';
 </script>
 
 <Hero>
@@ -44,24 +44,24 @@
               system for content creators to use in their videos." />
           </Col>
           <Col>
+            <WorkCard src="{src_portfolio}" alt="Portfolio" title="Portfolio"
+              body="In 2024, I developed a new portfolio website to showcase my skills and experience using
+              SvelteKit to create a dynamic single-page app." />
+          </Col>
+          <Col>
             <WorkCard src="{src_restfulcraft}" alt="RestfulCraft" title="RestfulCraft"
               body="An attempt to teach RESTful API design using Minecraft as a model. Blocks are resources,
               and the world is your API endpoint." />
           </Col>
           <Col>
-            <WorkCard src="{src_portfolio}" alt="Portfolio" title="Portfolio"
-              body="In 2024, I developed a new portfolio website to showcase my skills and experience using
-              SvelteKit, a new way to create single-page web front-ends." />
-          </Col>
-          <Col>
-            <WorkCard src="{src_chatws}" alt="ChatWS" title="ChatWS"
-              body="ChatWS is a WebSocket-based chat application that allows users to communicate in real-time
-              with each other, built with Ruby using Sinatra." />
-          </Col>
-          <Col>
             <WorkCard src="{src_photogo}" alt="PhotoGo" title="PhotoGo"
-              body="PhotoGo is an image sharing app built with Ruby on Rails. Initially built in Rails 5,
-              but has since been upgraded to Rails 7 and using ActiveStorage." />
+              body="PhotoGo is an image sharing app built in Ruby on Rails 5, but has since been upgraded to
+              Ruby on Rails 7 and using ActiveStorage." />
+          </Col>
+          <Col>
+            <WorkCard src="{src_oco}" alt="Order Coffee Online" title="Order Coffee Online"
+              body="OCO was an app for ordering coffee in Kansas City. It was built in Ruby on Rails and
+              integrated with Stripe and used Twilio for SMS notifications." />
           </Col>
           <Col>
             <WorkCard src="{src_mobimenu}" alt="MobiMenu" title="MobiMenu"
