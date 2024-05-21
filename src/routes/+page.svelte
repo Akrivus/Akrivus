@@ -16,7 +16,7 @@
 <Hero>
   <Container fluid>
     <Row>
-      <Col md={6} xxl={4}>
+      <Col md={6} xxl={4} class="align-content-center">
         <HeroCard />
         <Row cols={1}>
           <Col>
@@ -36,7 +36,7 @@
           </Col>
         </Row>
       </Col>
-      <Col md={6} xxl={8}>
+      <Col md={6} xxl={8} class="align-content-center">
         <Row cols={{ lg: 2, xl: 3 }}>
           <Col>
             <WorkCard src="{src_blockparty}" alt="Block Party" title="Block Party"

@@ -8,6 +8,6 @@
   }
 </style>
 
-<div class="hero container-fluid px-0 py-2">
+<div class="hero container-fluid px-0 py-2 align-content-center">
   <slot>Hello World!</slot>
 </div>
