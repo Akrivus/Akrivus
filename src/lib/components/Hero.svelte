@@ -1,7 +1,3 @@
-<script>
-  import { Container } from '@sveltestrap/sveltestrap';
-</script>
-
 <style>
   .hero {
     background-image: url('$lib/images/hero.jpg');

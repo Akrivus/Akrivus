@@ -10,9 +10,11 @@
 <Card class="mb-2">
   <CardImg src="{src}" alt="{alt}" top />
   <slot>
+    {#if title}
     <CardHeader class="pt-3">
       <h5>{title}</h5>
     </CardHeader>
+    {/if}
     <CardBody>
       {body}
     </CardBody>
