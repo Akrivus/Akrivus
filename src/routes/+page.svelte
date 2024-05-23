@@ -1,48 +1,75 @@
 <script>
-  import AboutSection from '$lib/components/sections/AboutSection.svelte';
-  import JourneySection from '$lib/components/sections/JourneySection.svelte';
-  import ProjectsSection from '$lib/components/sections/ProjectsSection.svelte';
-  import SkillsSection from '$lib/components/sections/SkillsSection.svelte';
-  import Landing from '$lib/components/Landing.svelte';
-  import NavArea from '$lib/components/nav/NavArea.svelte';
-  import ScrollButton from '$lib/components/nav/ScrollButton.svelte';
-  import Portrait from '$lib/components/Portrait.svelte';
+  import { Container, Row, Col } from '@sveltestrap/sveltestrap';
+  import Hero from '$lib/components/Hero.svelte';
+  import HeroCard from '../lib/components/cards/HeroCard.svelte';
+  import WorkCard from '../lib/components/cards/WorkCard.svelte';
+
+  import src_blockparty from '$lib/images/projects/blockparty.png';
+  import src_restfulcraft from '$lib/images/projects/restfulcraft.png';
+  import src_portfolio from '$lib/images/projects/portfolio.png';
+
+  import src_photogo from '$lib/images/projects/photogo.png';
+  import src_mobimenu from '$lib/images/projects/mobimenu.png';
+  import src_oco from '$lib/images/projects/oco.png';
 </script>
 
-<style>
-  h1 {
-    font-size: 3rem;
-  }
-
-  .name {
-    font-size: 4rem;
-    color: var(--bs-success);
-  }
-</style>
-
-<Landing>
-  <div slot="lead">
-    <h1>Hi,<br /><span class="name">I'm Owen</span></h1>
-    <p class="lead">
-      I'm driven by a passion for creating and learning. I've been
-      building solutions for 7 years, as an entrepreneur and software engineer.
-      My goal is to build solutions that make technology more accessible and
-      enjoyable for everyone.
-    </p>
-    <a href="Owen-Adrian-Software-Engineer-Resume.pdf" class="btn btn-lg btn-success">Résumé</a>
-    <a href="https://linkedin.com/in/owen-adrian" class="btn btn-lg btn-success" aria-label="LinkedIn"><i class="fab fa-linkedin" /></a>
-    <a href="https://github.com/Akrivus" class="btn btn-lg btn-success" aria-label="GitHub"><i class="fab fa-github" /></a>
-    <a href="https://www.youtube.com/channel/UCA52QVCQ0NI9QWBWpx-aSOg" class="btn btn-lg btn-success" aria-label="YouTube"><i class="fab fa-youtube" /></a>
-    <ScrollButton />
-  </div>
-  <div class="col" slot="side">
-    <Portrait />
-  </div>
-</Landing>
-
-<NavArea>
-  <AboutSection />
-  <ProjectsSection />
-  <SkillsSection />
-  <JourneySection />
-</NavArea>
+<Hero>
+  <Container fluid>
+    <Row>
+      <Col lg={6} xxl={4} class="align-content-center">
+        <HeroCard />
+        <Row cols={1}>
+          <Col>
+            <WorkCard title="I'm a self-starter."
+              body="In 2017, with nothing but a broken laptop, I developed an ordering app
+              for a local cafe. By 2020, I raised $500K and brightened the mornings of 3,000 customers." />
+          </Col>
+          <Col>
+            <WorkCard title="I'm talented."
+              body="My journey began in 2012 as a self-taught developer. I learned Visual Basic 6 and made
+              a video game for my dad and I to play while he was overseas." />
+          </Col>
+          <Col>
+            <WorkCard title="I'm a team player."
+              body="I'm inspired by others, and benefit greatly from collaboration,
+              whether during caffeinated nights, at the office, or at home over a Zoom call." />
+          </Col>
+        </Row>
+      </Col>
+      <Col lg={6} xxl={8} class="align-content-center">
+        <Row cols={{ xs: 1, lg: 2, xl: 3 }}>
+          <Col>
+            <WorkCard src="{src_blockparty}" alt="Block Party" title="Block Party"
+              body="Block Party introduces 300 uniquely designed characters, with an LLM-driven dialogue
+              system for content creators to use in their videos." />
+          </Col>
+          <Col>
+            <WorkCard src="{src_portfolio}" alt="Portfolio" title="Portfolio"
+              body="In 2024, I developed a new portfolio website to showcase my skills and experience using
+              SvelteKit to create a dynamic single-page app." />
+          </Col>
+          <Col>
+            <WorkCard src="{src_restfulcraft}" alt="RestfulCraft" title="RestfulCraft"
+              body="An attempt to teach RESTful API design using Minecraft as a model. Blocks are resources,
+              and the world is your API endpoint." />
+          </Col>
+          <Col>
+            <WorkCard src="{src_photogo}" alt="PhotoGo" title="PhotoGo"
+              body="PhotoGo is an image sharing app built in Ruby on Rails 5, but has since been upgraded to
+              Ruby on Rails 7 and using ActiveStorage." />
+          </Col>
+          <Col>
+            <WorkCard src="{src_oco}" alt="Order Coffee Online" title="Order Coffee Online"
+              body="OCO was an app for ordering coffee in Kansas City. It was built in Ruby on Rails and
+              integrated with Stripe and used Twilio for SMS notifications." />
+          </Col>
+          <Col>
+            <WorkCard src="{src_mobimenu}" alt="MobiMenu" title="MobiMenu"
+              body="MobiMenu is web application for managing menus across multiple storefronts and ensuring
+              accessible viewing options for customers." />
+          </Col>
+        </Row>
+      </Col>
+    </Row>
+  </Container>
+</Hero>
