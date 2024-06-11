@@ -5,7 +5,7 @@
   import WorkCard from '../lib/components/cards/WorkCard.svelte';
 
   import src_blockparty from '$lib/images/projects/blockparty.png';
-  import src_restfulcraft from '$lib/images/projects/restfulcraft.png';
+  import src_syntreno from '$lib/images/projects/syntreno.png';
   import src_portfolio from '$lib/images/projects/portfolio.png';
 
   import src_photogo from '$lib/images/projects/photogo.png';
@@ -22,7 +22,7 @@
           <Col>
             <WorkCard title="I'm a self-starter."
               body="In 2017, with nothing but a broken laptop, I developed an ordering app
-              for a local cafe. By 2020, I raised $500K and brightened the mornings of 3,000 customers." />
+              for a local cafe. By 2020, I bootstrapped a business and made the mornings of thousands." />
           </Col>
           <Col>
             <WorkCard title="I'm talented."
@@ -39,24 +39,24 @@
       <Col lg={6} xxl={8} class="align-content-center">
         <Row cols={{ xs: 1, lg: 2, xl: 3 }}>
           <Col>
-            <WorkCard src="{src_blockparty}" alt="Block Party" title="Block Party"
-              body="Block Party introduces 300 uniquely designed characters, with an LLM-driven dialogue
-              system for content creators to use in their videos." />
+            <WorkCard src="{src_syntreno}" alt="AI Doppelgänger" title="AI Doppelgänger" demo="https://owen.codes/an-ai-friend/" repo="phren"
+              body="At Syntreno, I combine my Unity, web, and AI knowledge to develop talking avatars
+              for interactive web-based training and skill-crafting." />
           </Col>
           <Col>
-            <WorkCard src="{src_portfolio}" alt="Portfolio" title="Portfolio"
+            <WorkCard src="{src_portfolio}" alt="Portfolio" title="Portfolio" repo="Akrivus"
               body="In 2024, I developed a new portfolio website to showcase my skills and experience using
               SvelteKit to create a dynamic single-page app." />
           </Col>
           <Col>
-            <WorkCard src="{src_restfulcraft}" alt="RestfulCraft" title="RestfulCraft"
-              body="An attempt to teach RESTful API design using Minecraft as a model. Blocks are resources,
-              and the world is your API endpoint." />
-          </Col>
-          <Col>
-            <WorkCard src="{src_photogo}" alt="PhotoGo" title="PhotoGo"
+            <WorkCard src="{src_photogo}" alt="PhotoGo" title="PhotoGo" repo="PhotoGo"
               body="PhotoGo is an image sharing app built in Ruby on Rails 5, but has since been upgraded to
               Ruby on Rails 7 and using ActiveStorage." />
+          </Col>
+          <Col>
+            <WorkCard src="{src_mobimenu}" alt="MobiMenu" title="MobiMenu" repo="MobiMenu"
+              body="MobiMenu is web application for managing menus across multiple storefronts and ensuring
+              accessible viewing options for customers." />
           </Col>
           <Col>
             <WorkCard src="{src_oco}" alt="Order Coffee Online" title="Order Coffee Online"
@@ -64,9 +64,9 @@
               integrated with Stripe and used Twilio for SMS notifications." />
           </Col>
           <Col>
-            <WorkCard src="{src_mobimenu}" alt="MobiMenu" title="MobiMenu"
-              body="MobiMenu is web application for managing menus across multiple storefronts and ensuring
-              accessible viewing options for customers." />
+            <WorkCard src="{src_blockparty}" alt="Block Party" title="Block Party" repo="BlockParty"
+              body="Block Party introduces 300 uniquely designed characters, with an LLM-driven dialogue
+              system for content creators to use in their videos." />
           </Col>
         </Row>
       </Col>
