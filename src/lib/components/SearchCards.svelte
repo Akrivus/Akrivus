@@ -8,26 +8,30 @@
 
   export let key;
 
-  const csvToMap = (csv) => csv.split('\n').map(row => row.split(','));
+  const csvToMap = (csv) => {
+    map = csv.split('\n').map(row => row.split(','));
+    rows = filterByKeyword();
+  }
   const byKeyword = row => {
     let keywords = row[2];
     if (!keywords) return false;
     return keywords.toLowerCase().includes(search.toLowerCase());
   }
+  const filterByKeyword = () => rows = map.filter(byKeyword);
 
-  let search = '';
+  let search = 'backend';
   let src = './data/' + key + '.csv';
   let map = [];
-  $: data = map.filter(byKeyword);
+  let rows = [];
 
   onMount(() => fetch(src).then(async res => map = csvToMap(await res.text())));
 </script>
 
 <CardRow header="Skills">
-  <Container>
-    <Input type="search" placeholder="Search Skills" bind:value={search} />
+  <Container class="mb-2">
+    <Input type="search" placeholder="Search Skills" bind:value={search} on:input={filterByKeyword} />
   </Container>
-  {#each data as row}
+  {#each rows as row}
     <SearchCard name={row[0]} level={row[1]} />
   {/each}
 </CardRow>
