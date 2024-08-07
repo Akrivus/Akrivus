@@ -1,0 +1,1 @@
+My first professional project, built initially in Sinatra, then rebuilt in Ruby on Rails months later as the application matured and required more horizontal feature implementation and connection to third-party services. It started as an SPA, grew into a full-blown cafe management suite.

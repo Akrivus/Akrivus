@@ -1,0 +1,4 @@
+- Enhanced application performance by 67% by resolving technical debt and N+1 errors using Sentry and Scout APM, resulting in a 20% increase in user satisfaction and retention.
+- Delivered 99.99% uptime by implementing a CI/CD pipeline with GitLab CI, Brakeman, and Newman, decreasing service interruptions by 75% and maintaining customer trust.
+- Implemented API usage tracking for Bitrix24 CRM and Salesforce Marketing Cloud, leading to a 25% increase in targeted marketing campaign effectiveness.
+- Improved page load speeds by 40% through modernizing static HTML front-end with TurboLinks.

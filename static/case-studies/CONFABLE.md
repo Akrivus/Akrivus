@@ -1,0 +1,3 @@
+I created Confable during my time at Unity. After I was laid off, I dedicated my full time into development, culminating in a successful prototype of an active ragdoll that responds to environmental cues while attempting to match a keyframe, and a job offer from Syntreno. I worked more on dialogue-flow, to better align with my work at Syntreno, but the ML agent used to drive joint movements is really just missing a better reward function to assist in training.
+
+For conversation demos, I'll point you to [my YouTube channel](https://www.youtube.com/@Akrivus) or show you [my current favorite.](https://www.youtube.com/watch?v=jdgFEDJBAyM)

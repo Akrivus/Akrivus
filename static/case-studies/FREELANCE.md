@@ -1,0 +1,6 @@
+I hosted a hackathon among my friends in 2017, and we came up with the designs for a coffee ordering app for a cafe in our town, Hammerhand Coffee. In September, I started refining those designs and setting up a deployment pipeline in Digital Ocean, launching OCO v1 in November of 2017. I built a web app in Ruby on Rails, a management kiosk in Cordova, deployed to an Android tablet. The next spring, I released OCO v2, with support for multiple locations as OCO expanded to three locations, tripling its revenue and making the mornings of 13,000 customers.
+
+- Developed a Ruby on Rails coffee-ordering app that served 13,000+ users and generated $3M in additional revenue, leveraging Twilio for communication, Stripe for payments, and Square for POS integration to create a seamless ordering experience.
+- Maintained a long-term consultancy relationship through a revenue share model, leading development projects, managing client relationships, providing customer support, and organizing hackathons.
+
+I sold OCO in 2020, and it remained online until 2022.
