@@ -5,8 +5,8 @@
   export let key;
   export let format = "png";
 
-  let img = `./case-studies/${key}.${format}`;
-  let src = `./case-studies/${key}.md`;
+  let img = `./data/case-studies/${key}.${format}`;
+  let src = `./data/case-studies/${key}.md`;
   let text;
   $: source = text;
 

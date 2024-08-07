@@ -19,7 +19,7 @@
   }
   const filterByKeyword = () => rows = map.filter(byKeyword);
 
-  let search = 'backend';
+  let search = '';
   let src = './data/' + key + '.csv';
   let map = [];
   let rows = [];

@@ -1,76 +1,69 @@
-Ruby,A,backend rails sinatra
-JavaScript,A,frontend js react node
-TypeScript,B,frontend js react
-C#,B,backend dotnet aspnet
-Python,B,backend flask django
-HTML,A,frontend web html5
-SASS,A,frontend css scss
-CSS,A,frontend web stylesheets
-SQL,A,database sql relational
-Ruby on Rails,A,backend rails ruby
-Sinatra,A,backend ruby microservices
-React,A,frontend js spa mern
-Postgres,A,database sql relational
-MongoDB,B,database nosql document
-Heroku,B,cloud deployment paas
-Azure,B,cloud deployment paas
-AWS,B,cloud deployment paas
-Git,A,version control vcs devops
-Bash,A,scripting shell devops
-Docker,A,containers devops orchestration
-Java,B,backend jvm oop
-PHP,C,backend web php
-Swift,C,mobile ios swift
-Kotlin,C,mobile android kotlin
-Go,C,backend performance go
-Scala,C,backend jvm scala
-Django,B,backend python web
-Flask,B,backend python microservices
-Angular,B,frontend js spa
-Vue.js,B,frontend js spa
-Express,B,backend js node
-Firebase,B,backend realtime nosql
-MySQL,B,database sql relational
-MariaDB,B,database sql relational
-CouchDB,C,database nosql document
-Redis,B,database nosql caching
-Google Cloud,C,cloud deployment paas
-Kubernetes,B,containers orchestration devops
-Jenkins,B,ci/cd devops automation
-CircleCI,B,ci/cd devops automation
-TravisCI,B,ci/cd devops automation
-Ansible,C,devops automation configuration
-Terraform,C,devops automation infrastructure
-Chef,C,devops automation configuration
-Puppet,C,devops automation configuration
-Vagrant,C,devops virtualization provisioning
-Prometheus,C,monitoring metrics devops
-Grafana,C,monitoring visualization devops
-New Relic,B,monitoring metrics devops
-RESTful APIs,A,backend integration web
-GraphQL,B,backend integration web
-SOAP APIs,C,backend integration web
-gRPC,B,backend rpc performance
-OAuth,B,security authentication integration
-OpenID Connect,B,security authentication integration
-Twilio,B,communication sms api
-Stripe,B,payments api ecommerce
-PayPal,C,payments api ecommerce
-Square,B,payments pos api
-Salesforce,C,integration crm salesforce
-Bitrix24 CRM,C,integration crm bitrix24
-Elasticsearch,C,search analytics nosql
-Memcached,C,database caching performance
-DynamoDB,C,database nosql aws
-Neo4j,C,database graph nosql
-Mercurial,C,version control vcs scm
-SVN,C,version control vcs scm
-Git,A,version control vcs scm
-RSpec,B,testing ruby tdd
-Capybara,B,testing ruby tdd
-Jasmine,B,testing js tdd
-Mocha,B,testing js tdd
-Chai,B,testing js tdd
-JUnit,B,testing java tdd
-Selenium,C,testing automation browser
-Cypress,C,testing automation e2e
+Ruby,A,ruby back full stack 
+Ruby on Rails,A,ruby back full stack 
+Sinatra,A,ruby back full stack
+C#,A,c# back wins stack
+ASP.NET,B,c# back wins
+Unity,B,c# gaming 3d
+WebGL,B,c# js java gaming 3d
+Visual Basic,C,wins
+Java,B,java back
+Python,B,python back full
+Flask,B,python back full
+FastAPI,B,python back full stack
+TypeScript,C,js java full
+JavaScript,B,js java full stack
+React,A,js java front
+Svelte,A,js java front
+Vue,B,js java front
+Angular,B,js java full
+Node,B,js java back full
+Express,A,js java back full
+npm,B,js java full devops
+Yarn,B,js java full devops
+HTML,A,html front
+SCSS,A,html front
+SASS,A,html front 
+CSS,A,html front
+PostgreSQL,B,sql database
+MongoDB,B,nosql database
+Heroku,A,devops cloud
+Azure,B,devops cloud
+AWS,B,devops cloud
+DigitalOcean,A,devops cloud
+Git,A,devops scm stack end
+Bash,B,devops stack end
+Docker,B,devops stack end
+Kubernetes,B,devops stack end
+Ansible,C,devops stack end
+Terraform,B,devops stack end
+Chef,B,devops stack end ruby
+Vagrant,B,devops stack end ruby
+Prometheus,C,devops tool
+New Relic,C,devops tool
+Scout APM,B,devops tool
+Sentry,B,devops tool
+gRPC,C,protocols full stack end api
+RESTful APIs,A,protocols full stack end api
+OAuth,A,protocols full stack end api
+OpenID Connect,B,protocols full stack end api
+Twilio,A,full stack end api
+Stripe,A,full stack end api
+PayPal,B,full stack end api
+Square,A,full stack end api
+Salesforce,B,api crm
+Bitrix24,B,api crm
+Elasticsearch,C,api crm devops
+RSpec,B,devops ruby stack
+Rake,B,devops ruby stack
+Brakeman,B,devops ruby stack
+Newman,A,devops qa tool
+Postman,A,devops qa tool
+Capybara,C,devops qa tool ruby
+Capistrano,C,devops qa tool ruby
+Mocha,C,qa
+Cypress,C,qa
+C++,D,c stack
+CMake,C,c stack
+WSL,B,tool stack
+Linux,B,tool stack
+Windows,B,tool stack
