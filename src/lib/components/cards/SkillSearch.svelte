@@ -70,8 +70,9 @@
   }).then(() => filler()));
 </script>
 
-<Row>
-  <Container class="mb-4">
+<Row class="align-content-start" style="min-height:100vh">
+  <Container class="mt-5 mb-4">
+    <h2>Search My Skills</h2>
     <Input type="search" placeholder="Search my skills (e.g. development)" bind:value={search}
       on:click={clear} on:input={filter}
       on:focus={() => focused = true} on:blur={() => focused = false} />

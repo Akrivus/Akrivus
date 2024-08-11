@@ -42,7 +42,6 @@
       github="https://github.com/Akrivus/BlockParty"
       youtube="https://www.youtube.com/watch?v=bT3_n-Ajxnk" />
   </Row>
-
-  <h2 class="mt-5">Search My Skills</h2>
+  
   <SkillSearch />
 </Container>
