@@ -5,7 +5,6 @@
   import Content from '../Content.svelte';
   import CardCol from '../CardCol.svelte';
 
-  const src = './obsidian/About Me.md';
   const portait = './obsidian/Images/Portrait.jpg';
 
   const width = () => _width = window.innerWidth;
@@ -38,7 +37,7 @@
           <div>
             <h1>Hi,<br /><span class="name">I'm Owen!</span></h1>
             <hr />
-            <Content {src} />
+            <Content src="./obsidian/About Me.md" />
           </div>
         </div>
       </Col>
@@ -73,7 +72,7 @@
     <h5>My Story</h5>
   </ModalHeader>
   <ModalBody>
-    <Content {src} />
+    <Content src="./obsidian/My Story.md" />
   </ModalBody>
   <ModalFooter>
     <Button color="danger" on:click={toggle}>Close</Button>
