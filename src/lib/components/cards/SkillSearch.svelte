@@ -34,7 +34,7 @@
       .map(row => row.split('|')
         .map(cell => cell.trim()))
       .map(c => [c[1], c[2], tokenize(c[3])])
-      .slice(2, -1);
+      .slice(3, -1);
   }).then(() => filler()));
 </script>
 
