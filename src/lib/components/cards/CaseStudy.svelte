@@ -16,6 +16,10 @@
   
   export let title;
   export let subtitle;
+  export let note = "";
+
+  export let md = 12;
+  export let lg = 6;
 
   import FlipCard from '../FlipCard.svelte';
 
@@ -27,16 +31,26 @@
   }
 </script>
 
-<FlipCard md={6} lg={3}>
+<FlipCard {md} {lg}>
   <CardImg src="{img}" />
   <CardBody>
     <h5>{title}</h5>
-    <p>{subtitle}</p>
+    <p>
+      {subtitle}
+      {#if note}
+        <br />
+        <span class="small text-muted">{note}</span>
+      {/if}
+    </p>
   </CardBody>
   <svelte:fragment slot="body">
     <CardHeader>
       <h5>{title}</h5>
       <span>{subtitle}</span>
+      {#if note}
+        <br />
+        <span class="small text-muted">{note}</span>
+      {/if}
     </CardHeader>
     <CardBody>
       <SvelteMarkdown {source} />

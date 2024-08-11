@@ -1,5 +1,5 @@
 <script>
-  import CardCol from "./CardCol.svelte";
+  import CardCol from "../CardCol.svelte";
 
   export let name;
   export let level;
@@ -13,10 +13,10 @@
       label = "Expert";
       break;
     case "B":
-      label = "Advanced";
+      label = "Proficient";
       break;
     case "C":
-      label = "Intermediate";
+      label = "Competent";
       break;
     case "D":
       label = "Experienced";
@@ -25,7 +25,7 @@
       label = "Avoiding";
       break;
     default:
-      label = "Novice";
+      label = "Familiar";
   }
 
   $: switch (level)
@@ -40,13 +40,13 @@
       color = "primary";
       break;
     case "D":
-      color = "secondary";
+      color = "white";
       break;
     case "F":
       color = "danger";
       break;
     default:
-      color = "white";
+      color = "secondary";
   }
 </script>
 
