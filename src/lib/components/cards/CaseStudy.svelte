@@ -1,5 +1,5 @@
 <script>
-  import { CardImg, CardBody, CardHeader, Button, Modal, ModalBody, ModalHeader, ModalFooter, CardFooter, ButtonGroup } from '@sveltestrap/sveltestrap';
+  import { CardImg, CardBody, Button, Modal, ModalBody, ModalHeader, ModalFooter, CardFooter, ButtonGroup } from '@sveltestrap/sveltestrap';
 
   import Content from '../Content.svelte';
   import CardCol from '../CardCol.svelte';
@@ -12,7 +12,6 @@
 
   export let github;
   export let youtube;
-  export let demo;
 
   export let md = 12;
   export let lg = 6;

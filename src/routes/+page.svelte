@@ -1,8 +1,6 @@
 <script>
   import { Container, Col, Row } from '@sveltestrap/sveltestrap';
 
-  import CardCol from '../lib/components/CardCol.svelte';
-
   import CaseStudy from '../lib/components/cards/CaseStudy.svelte';
   import About from '../lib/components/cards/About.svelte';
   import SkillSearch from '../lib/components/cards/SkillSearch.svelte';
@@ -16,9 +14,7 @@
 
 <Container class="mt-5">
   <Row>
-    <CardCol lg={6}>
-      <About />
-    </CardCol>
+    <About />
     <Col>
       <Row>
         <h2>Where I've Been</h2>
