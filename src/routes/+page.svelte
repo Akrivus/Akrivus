@@ -27,7 +27,7 @@
   </Row>
 
   <Row class="mt-5">
-    <h2>What I've Done</h2>
+    <h2>Case Studies & Projects</h2>
     <CaseStudy md={6} lg={3} title="Unity Reflect" subtitle="Optimized BIM workflows." image />
     <CaseStudy md={6} lg={3} title="VisualLive Web" subtitle="Simplified monolithic codebase." image />
     <CaseStudy md={6} lg={3} title="Order Coffee Online" subtitle="Increased mid-shift sales." image />
@@ -43,6 +43,6 @@
       youtube="https://www.youtube.com/watch?v=bT3_n-Ajxnk" />
   </Row>
 
-  <h2 class="mt-5">What I Do</h2>
+  <h2 class="mt-5">Search My Skills</h2>
   <SkillSearch />
 </Container>

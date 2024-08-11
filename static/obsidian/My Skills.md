@@ -45,7 +45,7 @@
 |.NET|B|.net c# web framework microsoft|
 |.NET Core|B|.net core c# web framework microsoft|
 |Mono|E|mono c# cross platform microsoft|
-|Unity|B|unity game development c# engine|
+|Unity|B|unity game development c# engine games|
 |Visual Studio|E|visual studio ide microsoft development|
 |VS Code|B|vs code ide text editor development|
 |Notepad++|E|notepad++ text editor development|
@@ -69,7 +69,7 @@
 |GitLab|E|gitlab version control repository|
 |Trello|B|trello project management kanban|
 |JIRA|E|jira project management agile|
-|HacknPlan|E|hacknplan project management game development|
+|HacknPlan|E|hacknplan project management game development games|
 |Discord Integration|E|discord integration chat platform api|
 |Slack Integration|E|slack integration chat platform api|
 |SalesForce Integration|E|salesforce integration crm api|
@@ -138,7 +138,7 @@
 |GPT Integration|B|gpt integration ai machine learning|
 |Whisper Integration|B|whisper integration ai speech to text|
 |Chat Bots|B|chat bots ai interaction development|
-|Minecraft Modding|D|minecraft modding game development java|
+|Minecraft Modding|D|minecraft modding game development games java|
 |AWS|C|aws amazon web services cloud|
 |Azure|C|azure microsoft cloud|
 |Google Cloud|C|google cloud cloud|

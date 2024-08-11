@@ -5,7 +5,7 @@
   import Content from '../Content.svelte';
   import CardCol from '../CardCol.svelte';
 
-  const portait = './obsidian/Images/Portrait.jpg';
+  const portait = './obsidian/Images/Portrait2.jpg';
 
   const width = () => _width = window.innerWidth;
   const toggle = () => open = !open;
