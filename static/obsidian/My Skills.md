@@ -1,4 +1,4 @@
-This is a search table used for the home page search bar.||||
+||||
 |Skill|Confidence|Tags|
 |:--|:-:|--:|
 |Ruby|A|ruby ruby on rails ruby rails programming language|
