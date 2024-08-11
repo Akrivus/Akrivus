@@ -30,7 +30,7 @@
   let data = [];
   let rows = [];
 
-  let searches = ["web", "ruby", "javascript", "api", "software", "python", "linux", "c#", "java", "ai", "c++", "unity", "games", "iot", "hardware"];
+  let searches = ["web", "ruby", "javascript", "api", "software", "python", "linux", "c#", "java", "ai", "games", "hardware"];
   let currentSearch = 0;
 
   function type() {

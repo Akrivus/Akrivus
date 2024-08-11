@@ -56,7 +56,7 @@
 |Maven|E|maven java build tool|
 |Git|B|git version control development|
 |Bash|E|bash shell scripting linux|
-|Linux|B|linux operating system development|
+|Linux|B|linux hardware operating system development|
 |Debian|B|debian linux distribution operating system|
 |WSL|A|wsl windows subsystem linux development|
 |Windows|B|windows operating system microsoft|
@@ -120,7 +120,7 @@
 |Ansible|D|ansible devops configuration management|
 |Vagrant|D|vagrant devops virtualization|
 |MySQL|D|mysql databases sql|
-|C|E|c embedded iot programming language development|
+|C|E|c embedded iot hardware programming language development|
 |WebAssembly|E|webassembly web development low level|
 |WebSockets|B|websockets web development real time|
 |WebGL|B|webgl web development graphics|
@@ -128,7 +128,7 @@
 |Bluetooth|E|bluetooth wireless communication development|
 |Raspberry Pi|D|raspberry pi hardware development prototyping|
 |ESP32|D|esp32 embedded iot hardware development|
-|Platform.io|D|platform.io embedded systems development|
+|Platform.io|D|platform.io iot embedded hardware systems development|
 |LLMs|B|large language models machine learning ai chat|
 |GPT-4|B|gpt-4 machine learning ai openai chat|
 |GPT-3.5|B|gpt-3.5 machine learning ai openai chat|
