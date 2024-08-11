@@ -39,7 +39,7 @@
 </script>
 
 <Row>
-  <Container class="mb-2">
+  <Container class="mb-4">
     <Input type="search" placeholder="Search my skills" bind:value={search} on:click={() => search = ''} on:input={filter} />
   </Container>
   {#each rows as row}

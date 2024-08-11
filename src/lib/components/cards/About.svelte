@@ -5,7 +5,7 @@
   import Content from '../Content.svelte';
 
   const src = './obsidian/About Me.md';
-  const portait = './obsidian/Images/portrait.jpg';
+  const portait = './obsidian/Images/Portrait.jpg';
 
   const width = () => _width = window.innerWidth;
 
@@ -46,7 +46,10 @@
 </CardBody>
 <CardFooter>
   <ButtonGroup>
-    <Button color="success" href="./Owen-Adrian-Software-Engineer-Resume.pdf" target="_blank">Résumé</Button>
+    <Button color="success" href="./Owen-Adrian-Software-Engineer-Resume.pdf" target="_blank">
+      <i class="fas fa-file-pdf" />&nbsp;
+      Résumé
+    </Button>
   </ButtonGroup>
   <ButtonGroup style="float:right">
     <Button color="primary" href="https://linkedin.com/in/owen-adrian" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin" /></Button>

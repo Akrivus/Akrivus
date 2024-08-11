@@ -1,14 +1,18 @@
 <script>
-  import { CardImg, CardBody, CardHeader, Button, Modal, ModalBody, ModalHeader, ModalFooter } from '@sveltestrap/sveltestrap';
+  import { CardImg, CardBody, CardHeader, Button, Modal, ModalBody, ModalHeader, ModalFooter, CardFooter, ButtonGroup } from '@sveltestrap/sveltestrap';
 
   import Content from '../Content.svelte';
-  import FlipCard from '../FlipCard.svelte';
+  import CardCol from '../CardCol.svelte';
 
   export let format = "png";
+  export let image = false;
   
   export let title;
   export let subtitle;
-  export let note = "";
+
+  export let github;
+  export let youtube;
+  export let demo;
 
   export let md = 12;
   export let lg = 6;
@@ -24,35 +28,30 @@
   }
 </script>
 
-<FlipCard {md} {lg}>
-  <CardImg src="{img}" />
+<CardCol {md} {lg}>
+  {#if image}
+    <CardImg src="{img}" />
+  {/if}
   <CardBody>
     <h5>{title}</h5>
-    <p>
-      {subtitle}
-      {#if note}
-        <br />
-        <span class="small text-muted">{note}</span>
-      {/if}
-    </p>
+    {subtitle}
   </CardBody>
-  <svelte:fragment slot="body">
-    <CardHeader>
-      <h5>{title}</h5>
-      <span>{subtitle}</span>
-      {#if note}
-        <br />
-        <span class="small text-muted">{note}</span>
+  <CardFooter>
+    <Button color="success" on:click={toggle}>
+      <i class="fas fa-book" />&nbsp;
+      Read
+    </Button>
+    <ButtonGroup style="float:right">
+      {#if github}
+        <Button color="dark" href="{github}" target="_blank"><i class="fab fa-github" /></Button>
       {/if}
-    </CardHeader>
-    <CardBody>
-      <Content {src} />
-    </CardBody>
-  </svelte:fragment>
-  <div slot="footer" style="float: right;">
-    <Button on:click={toggle}>Read</Button>
-  </div>
-</FlipCard>
+      {#if youtube}
+        <Button color="danger" href="{youtube}" target="_blank"><i class="fab fa-youtube" /></Button>
+      {/if}
+    </ButtonGroup>
+  </CardFooter>
+</CardCol>
+
 <Modal {toggle} size="lg" bind:isOpen={open}>
   <ModalHeader {toggle}>
     <h5>{title}</h5>
@@ -62,6 +61,6 @@
     <Content {src} />
   </ModalBody>
   <ModalFooter>
-    <Button color="secondary" on:click={toggle}>Close</Button>
+    <Button color="danger" on:click={toggle}>Close</Button>
   </ModalFooter>
 </Modal>

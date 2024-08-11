@@ -1,7 +1,8 @@
+||||
 |Item|Type|Tags|
 |:--|:-:|--:|
 |Ruby|A|ruby ruby on rails ruby rails programming language default|
-|Ruby on Rails|A|ruby on rails ruby rails programming language framework|
+|Ruby on Rails|A|ruby on rails ruby rails programming language framework default|
 |Devise|D|devise ruby rails authentication gem|
 |delayed_job|C|delayed_job ruby rails background processing job queue|
 |Solid Queue|D|solid queue ruby rails background processing job queue|
@@ -10,14 +11,14 @@
 |ActiveSupport|C|activesupport ruby rails utilities extensions|
 |ActiveRecord|C|activerecord ruby rails orm|
 |Mongoid|C|mongoid ruby rails mongodb orm|
-|Sinatra|A|sinatra ruby microframework web applications|
+|Sinatra|A|sinatra ruby microframework web applications default|
 |Grape|D|grape ruby rest api framework|
 |Padrino|D|padrino ruby web framework sinatra|
 |HAML|A|haml ruby html templating|
-|HTML|A|html web development markup language|
-|CSS|A|css web development styling|
+|HTML|A|html web development markup language default|
+|CSS|A|css web development styling default|
 |SCSS|B|scss css preprocessor styling|
-|JavaScript|B|javascript web development programming language default|
+|JavaScript|A|javascript web development programming language default|
 |React|B|react javascript frontend framework default|
 |Svelte|B|svelte javascript frontend framework default|
 |Express|B|express javascript node backend framework|
@@ -32,7 +33,7 @@
 |Docker|B|docker containerization devops default|
 |Kubernetes|C|kubernetes container orchestration devops default|
 |GitLab CI|C|gitlab ci continuous integration devops default|
-|GitHub Actions|B|github actions continuous integration devops|
+|GitHub Actions|B|github actions continuous integration devops default|
 |YAML|A|yaml configuration devops|
 |JSON|A|json data format web development|
 |Rack|C|rack ruby web server interface|
@@ -104,7 +105,7 @@
 |DLLs|E|dlls windows dynamic link libraries|
 |EXEs|E|exes windows executables|
 |Databases|E|databases development data storage|
-|SQL|C|sql databases query language|
+|SQL|C|sql databases query language default|
 |PostgreSQL|D|postgresql databases sql default|
 |SQLite|D|sqlite databases sql|
 |MongoDB|E|mongodb databases nosql|

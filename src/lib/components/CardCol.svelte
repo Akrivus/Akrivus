@@ -12,6 +12,6 @@
   export let xxl;
 </script>
 
-<Col xs={xs} sm={sm} md={md} lg={lg} xl={xl} xxl={xxl} class="mb-2 align-content-center">
+<Col xs={xs} sm={sm} md={md} lg={lg} xl={xl} xxl={xxl} class="mb-4 align-content-center">
   <Card body={body} style={center ? "text-align:center" : ""}><slot /></Card>
 </Col>

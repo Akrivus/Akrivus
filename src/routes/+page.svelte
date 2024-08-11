@@ -20,30 +20,33 @@
       <About />
     </CardCol>
     <Col>
-      <h2>My Experience</h2>
       <Row>
-        <CaseStudy title="Unity" subtitle="Software Engineer" note="March 2020 - May 2023" />
-    
-        <CaseStudy title="VisualLive" subtitle="Full Stack Developer" note="March 2019 - March 2020" />
-    
-        <CaseStudy title="Syntreno" subtitle="Lead Software Engineer" note="August 2023 - August 2024" />
-    
-        <CaseStudy title="OCO" subtitle="Founder, Developer" note="September 2017 - April 2019" />
+        <h2>Where I've Been</h2>
+        <CaseStudy title="Unity Technologies" subtitle="Software Engineer" />
+        <CaseStudy title="VisualLive" subtitle="Full Stack Developer" />
+        <CaseStudy title="Hammerhand Coffee" subtitle="Developer Consultant" />
+        <CaseStudy title="Syntreno" subtitle="Lead Software Engineer" />
       </Row>
     </Col>
   </Row>
 
-  <Row>
-    <h2 class="mt-5">My Projects</h2>
-    <CaseStudy md={6} lg={3} title="Portfolio" subtitle="You're looking at it." />
-
-    <CaseStudy md={6} lg={3} title="OCO" subtitle="Order coffee online and pick-up." />
-
-    <CaseStudy md={6} lg={3} title="Confable" subtitle="AI-controlled bodies." format="gif" />
-
-    <CaseStudy md={6} lg={3} title="Block Party" subtitle="Craft stories in Minecraft." />
+  <Row class="mt-5">
+    <h2>What I've Done</h2>
+    <CaseStudy md={6} lg={3} title="Unity Reflect" subtitle="Optimized BIM workflows." image />
+    <CaseStudy md={6} lg={3} title="VisualLive Web" subtitle="Simplified monolithic codebase." image />
+    <CaseStudy md={6} lg={3} title="Order Coffee Online" subtitle="Increased mid-shift sales." image />
+    <CaseStudy md={6} lg={3} title="Gino Syntreno" subtitle="Reinforced soft skills using AI." image />
+    <CaseStudy md={6} lg={3} title="Portfolio" subtitle="Continuing learning with Svelte." image
+      github="https://github.com/Akrivus/Akrivus" />
+    <CaseStudy md={6} lg={3} title="Confable" subtitle="Generating movies in Unity." image format="gif"
+      youtube="https://www.youtube.com/watch?v=Oac47MnbjCc" />
+    <CaseStudy md={6} lg={3} title="PhotoGo" subtitle="Demonstrating skill with Rails." image
+      github="https://github.com/Akrivus/PhotoGo" />
+    <CaseStudy md={6} lg={3} title="Block Party" subtitle="Made in 11,000 lines of Java." image
+      github="https://github.com/Akrivus/BlockParty"
+      youtube="https://www.youtube.com/watch?v=bT3_n-Ajxnk" />
   </Row>
 
-  <h2 class="mt-5">My Skills</h2>
-  <SkillSearch key="SKILLS" />
+  <h2 class="mt-5">What I Do</h2>
+  <SkillSearch />
 </Container>
