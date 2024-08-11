@@ -1,0 +1,1 @@
+VL is a monolith, API and web portal hosted in a single Ruby on Rails codebase. It was developed in piecemeal despite being a pretty extensive application, leading to numerous inefficiencies in design and use. I explain more in the job point, this one will have more pictures when I have time to write it out.

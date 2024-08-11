@@ -1,8 +1,8 @@
-||||
-|Item|Type|Tags|
+This is a search table used for the home page search bar.||||
+|Skill|Confidence|Tags|
 |:--|:-:|--:|
-|Ruby|A|ruby ruby on rails ruby rails programming language default|
-|Ruby on Rails|A|ruby on rails ruby rails programming language framework default|
+|Ruby|A|ruby ruby on rails ruby rails programming language|
+|Ruby on Rails|A|ruby on rails ruby rails programming language framework|
 |Devise|D|devise ruby rails authentication gem|
 |delayed_job|C|delayed_job ruby rails background processing job queue|
 |Solid Queue|D|solid queue ruby rails background processing job queue|
@@ -11,29 +11,29 @@
 |ActiveSupport|C|activesupport ruby rails utilities extensions|
 |ActiveRecord|C|activerecord ruby rails orm|
 |Mongoid|C|mongoid ruby rails mongodb orm|
-|Sinatra|A|sinatra ruby microframework web applications default|
+|Sinatra|A|sinatra ruby microframework web applications|
 |Grape|D|grape ruby rest api framework|
 |Padrino|D|padrino ruby web framework sinatra|
 |HAML|A|haml ruby html templating|
-|HTML|A|html web development markup language default|
-|CSS|A|css web development styling default|
+|HTML|A|html web development markup language|
+|CSS|A|css web development styling|
 |SCSS|B|scss css preprocessor styling|
-|JavaScript|A|javascript web development programming language default|
-|React|B|react javascript frontend framework default|
-|Svelte|B|svelte javascript frontend framework default|
+|JavaScript|A|javascript web development programming language|
+|React|B|react javascript frontend framework|
+|Svelte|B|svelte javascript frontend framework|
 |Express|B|express javascript node backend framework|
-|Node|C|node javascript backend runtime default|
-|TypeScript|C|typescript javascript typed programming language default|
+|Node|C|node javascript backend runtime|
+|TypeScript|C|typescript javascript typed programming language|
 |ESLint|D|eslint javascript linter code quality|
 |RuboCop|D|rubocop ruby linter code quality|
 |Brakeman|D|brakeman ruby rails security scanner|
 |Newman|B|newman api testing postman cli|
 |Postman|B|postman api testing|
 |Foreman|C|foreman ruby process manager|
-|Docker|B|docker containerization devops default|
-|Kubernetes|C|kubernetes container orchestration devops default|
-|GitLab CI|C|gitlab ci continuous integration devops default|
-|GitHub Actions|B|github actions continuous integration devops default|
+|Docker|B|docker containerization devops|
+|Kubernetes|C|kubernetes container orchestration devops|
+|GitLab CI|C|gitlab ci continuous integration devops|
+|GitHub Actions|B|github actions continuous integration devops|
 |YAML|A|yaml configuration devops|
 |JSON|A|json data format web development|
 |Rack|C|rack ruby web server interface|
@@ -77,7 +77,7 @@
 |Square Integration|E|square integration payment api|
 |Stripe|E|stripe integration payment api|
 |Twilio|E|twilio integration sms api|
-|Agile Development|E|agile development methodology default|
+|Agile Development|E|agile development methodology|
 |Scrum|E|scrum agile development methodology|
 |Kanban|B|kanban project management methodology|
 |Clean Code|B|clean code coding principles best practices|
@@ -105,8 +105,8 @@
 |DLLs|E|dlls windows dynamic link libraries|
 |EXEs|E|exes windows executables|
 |Databases|E|databases development data storage|
-|SQL|C|sql databases query language default|
-|PostgreSQL|D|postgresql databases sql default|
+|SQL|C|sql databases query language|
+|PostgreSQL|D|postgresql databases sql|
 |SQLite|D|sqlite databases sql|
 |MongoDB|E|mongodb databases nosql|
 |npm|B|npm javascript package management|
@@ -142,5 +142,6 @@
 |AWS|C|aws amazon web services cloud|
 |Azure|C|azure microsoft cloud|
 |Google Cloud|C|google cloud cloud|
-|Heroku|B|heroku cloud platform as a service default|
+|Heroku|B|heroku cloud platform as a service|
 |DigitalOcean|B|digitalocean cloud infrastructure as a service|
+|OAuth|A|oauth web integration sso rails devise|

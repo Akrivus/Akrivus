@@ -6,8 +6,4 @@ There are 329 characters in the default edition of Block Party, representing mos
 
 While unfinished, Block Party has been in active development for 3 out of the past 5 years, returning into a phase of active development in 2024 as generative AI demonstrates its versatility, generating scene-plays from prompts and returning structured scene JSON for rapid integration of new storylines.
 
-I put it on here because the screenshots look cool, and the characters have a lot of exaggerated movements due to having a chibi/anime inspiration.
-
-[Here's a link to a video demo.](https://www.youtube.com/watch?v=bT3_n-Ajxnk)
-
 Alongside the versatile cast of characters and the JSON scene-writing system, Block Party features unique Japanese-inspired items, such as a set of samurai armor, and structures used for summoning characters based on Torii gates, which make the sky and trees turn pink and render a silhouette of Mount Fuji.
