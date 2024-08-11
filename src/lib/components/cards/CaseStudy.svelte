@@ -1,18 +1,10 @@
 <script>
-  import SvelteMarkdown from 'svelte-markdown';
-  import { onMount } from 'svelte';
-
-  export let key;
-  export let format = "png";
-
-  let img = `./data/case-studies/${key}.${format}`;
-  let src = `./data/case-studies/${key}.md`;
-  let text;
-  $: source = text;
-
-  onMount(() => fetch(src).then(async res => text = await res.text()));
-
   import { CardImg, CardBody, CardHeader, Button, Modal, ModalBody, ModalHeader, ModalFooter } from '@sveltestrap/sveltestrap';
+
+  import Content from '../Content.svelte';
+  import FlipCard from '../FlipCard.svelte';
+
+  export let format = "png";
   
   export let title;
   export let subtitle;
@@ -21,7 +13,8 @@
   export let md = 12;
   export let lg = 6;
 
-  import FlipCard from '../FlipCard.svelte';
+  let img = `./obsidian/Images/card-${title}.${format}`;
+  let src = `./obsidian/Case Studies/${title}.md`;
 
   let open = false;
 
@@ -53,7 +46,7 @@
       {/if}
     </CardHeader>
     <CardBody>
-      <SvelteMarkdown {source} />
+      <Content {src} />
     </CardBody>
   </svelte:fragment>
   <div slot="footer" style="float: right;">
@@ -66,7 +59,7 @@
     <span>{subtitle}</span>
   </ModalHeader>
   <ModalBody>
-    <SvelteMarkdown {source} />
+    <Content {src} />
   </ModalBody>
   <ModalFooter>
     <Button color="secondary" on:click={toggle}>Close</Button>

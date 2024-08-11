@@ -4,13 +4,6 @@
 
   import Skill from './Skill.svelte';
 
-  export let key;
-
-  let src = `./data/${key}.csv`;
-  let search = '';
-  let data = [];
-  let rows = [];
-
   const tokenize = (tokens) => tokens.split(' ');
 
   const byGrade = (row1, row2) => row1[1].localeCompare(row2[1]);
@@ -29,11 +22,19 @@
     return rows = _rows;
   };
 
+  const src = './obsidian/My Skills.md';
+
+  let search = '';
+  let data = [];
+  let rows = [];
+
   onMount(() => fetch(src).then(async res => {
     const csv = await res.text();
     data = csv.split('\r\n')
-      .map(row => row.split(','))
-      .map(c => [c[0], c[1], tokenize(c[2])]);
+      .map(row => row.split('|')
+        .map(cell => cell.trim()))
+      .map(c => [c[1], c[2], tokenize(c[3])])
+      .slice(2, -1);
   }).then(() => filler()));
 </script>
 

@@ -1,8 +1,11 @@
 <script>
-  import { onDestroy, onMount } from 'svelte';
+  import { onMount } from 'svelte';
   import { Row, Col, CardBody, CardImg, CardFooter, ButtonGroup, Button } from '@sveltestrap/sveltestrap';
 
-  import src from '$lib/images/portrait.jpg';
+  import Content from '../Content.svelte';
+
+  const src = './obsidian/About Me.md';
+  const portait = './obsidian/Images/portrait.jpg';
 
   const width = () => _width = window.innerWidth;
 
@@ -30,13 +33,13 @@
         <div>
           <h1>Hi,<br /><span class="name">I'm Owen!</span></h1>
           <hr />
-          <slot />
+          <Content {src} />
         </div>
       </div>
     </Col>
     <Col sm={3} style="display:{display}">
       <div class="h-100 d-flex align-items-center portrait">
-        <CardImg src="{src}" alt="Portrait of Owen" class="rounded-circle m-auto" style="max-height: 30vh;" />
+        <CardImg src={portait} alt="Portrait of Owen" class="rounded-circle m-auto" style="max-height: 30vh;" />
       </div>
     </Col>
   </Row>

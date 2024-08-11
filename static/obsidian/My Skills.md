@@ -1,0 +1,145 @@
+|Item|Type|Tags|
+|:--|:-:|--:|
+|Ruby|A|ruby ruby on rails ruby rails programming language default|
+|Ruby on Rails|A|ruby on rails ruby rails programming language framework|
+|Devise|D|devise ruby rails authentication gem|
+|delayed_job|C|delayed_job ruby rails background processing job queue|
+|Solid Queue|D|solid queue ruby rails background processing job queue|
+|ActiveJob|C|activejob ruby rails background processing job queue|
+|ActiveStorage|C|activestorage ruby rails file storage|
+|ActiveSupport|C|activesupport ruby rails utilities extensions|
+|ActiveRecord|C|activerecord ruby rails orm|
+|Mongoid|C|mongoid ruby rails mongodb orm|
+|Sinatra|A|sinatra ruby microframework web applications|
+|Grape|D|grape ruby rest api framework|
+|Padrino|D|padrino ruby web framework sinatra|
+|HAML|A|haml ruby html templating|
+|HTML|A|html web development markup language|
+|CSS|A|css web development styling|
+|SCSS|B|scss css preprocessor styling|
+|JavaScript|B|javascript web development programming language default|
+|React|B|react javascript frontend framework default|
+|Svelte|B|svelte javascript frontend framework default|
+|Express|B|express javascript node backend framework|
+|Node|C|node javascript backend runtime default|
+|TypeScript|C|typescript javascript typed programming language default|
+|ESLint|D|eslint javascript linter code quality|
+|RuboCop|D|rubocop ruby linter code quality|
+|Brakeman|D|brakeman ruby rails security scanner|
+|Newman|B|newman api testing postman cli|
+|Postman|B|postman api testing|
+|Foreman|C|foreman ruby process manager|
+|Docker|B|docker containerization devops default|
+|Kubernetes|C|kubernetes container orchestration devops default|
+|GitLab CI|C|gitlab ci continuous integration devops default|
+|GitHub Actions|B|github actions continuous integration devops|
+|YAML|A|yaml configuration devops|
+|JSON|A|json data format web development|
+|Rack|C|rack ruby web server interface|
+|Rake|C|rake ruby task management|
+|CMake|D|cmake c++ build tool|
+|C++|D|c++ programming language systems|
+|C#|A|c# programming language microsoft|
+|ASP.NET|B|asp.net c# web framework microsoft|
+|.NET|B|.net c# web framework microsoft|
+|.NET Core|B|.net core c# web framework microsoft|
+|Mono|E|mono c# cross platform microsoft|
+|Unity|B|unity game development c# engine|
+|Visual Studio|E|visual studio ide microsoft development|
+|VS Code|B|vs code ide text editor development|
+|Notepad++|E|notepad++ text editor development|
+|IntelliJ IDEA|B|intellij idea ide java development|
+|Eclipse|F|eclipse ide java development|
+|Java|A|java programming language development|
+|Gradle|D|gradle java build tool|
+|Maven|E|maven java build tool|
+|Git|B|git version control development|
+|Bash|E|bash shell scripting linux|
+|Linux|B|linux operating system development|
+|Debian|B|debian linux distribution operating system|
+|WSL|A|wsl windows subsystem linux development|
+|Windows|B|windows operating system microsoft|
+|Visual Basic|F|visual basic programming language microsoft|
+|VB6|F|vb6 visual basic programming language microsoft|
+|PHP|E|php programming language web development|
+|WordPress|D|wordpress cms php web development|
+|Elementor|D|elementor wordpress page builder|
+|GitHub|B|github version control repository|
+|GitLab|E|gitlab version control repository|
+|Trello|B|trello project management kanban|
+|JIRA|E|jira project management agile|
+|HacknPlan|E|hacknplan project management game development|
+|Discord Integration|E|discord integration chat platform api|
+|Slack Integration|E|slack integration chat platform api|
+|SalesForce Integration|E|salesforce integration crm api|
+|PayPal Integration|E|paypal integration payment api|
+|Square Integration|E|square integration payment api|
+|Stripe|E|stripe integration payment api|
+|Twilio|E|twilio integration sms api|
+|Agile Development|E|agile development methodology default|
+|Scrum|E|scrum agile development methodology|
+|Kanban|B|kanban project management methodology|
+|Clean Code|B|clean code coding principles best practices|
+|SRP|B|srp solid principles software design|
+|DRY|B|dry solid principles software design|
+|OWASP Top 10|C|owasp top 10 security best practices|
+|AppSec|B|appsec application security|
+|Documentation|B|documentation technical writing development|
+|Tracing|C|tracing debugging performance monitoring|
+|Test-Driven Development|C|test-driven development tdd testing methodology|
+|Behavior-Driven Development|B|behavior-driven development bdd testing methodology|
+|Unit Testing|C|unit testing testing software|
+|Integration Testing|C|integration testing testing software|
+|Building MVPs|B|building mvps startup lean methodology|
+|Code Maintenence|B|code maintenance software engineering development|
+|Code Refactoring|B|code refactoring software engineering development|
+|Web Applications|A|web applications development internet|
+|Websites|D|websites development internet|
+|RESTful APIs|A|restful apis web development design|
+|MVC|D|mvc architecture design pattern|
+|Microservices|D|microservices architecture design pattern|
+|SOA|D|soa architecture service oriented architecture|
+|SaaS|D|saas software as a service cloud|
+|RubyGems|D|rubygems ruby package management|
+|DLLs|E|dlls windows dynamic link libraries|
+|EXEs|E|exes windows executables|
+|Databases|E|databases development data storage|
+|SQL|C|sql databases query language|
+|PostgreSQL|D|postgresql databases sql default|
+|SQLite|D|sqlite databases sql|
+|MongoDB|E|mongodb databases nosql|
+|npm|B|npm javascript package management|
+|Yarn|B|yarn javascript package management|
+|Python|D|python programming language development|
+|pip|D|pip python package management|
+|FastAPI|B|fastapi python web framework|
+|Flask|C|flask python web framework|
+|Terraform|C|terraform devops infrastructure as code|
+|Chef|D|chef devops configuration management|
+|Ansible|D|ansible devops configuration management|
+|Vagrant|D|vagrant devops virtualization|
+|MySQL|D|mysql databases sql|
+|C|E|c embedded iot programming language development|
+|WebAssembly|E|webassembly web development low level|
+|WebSockets|B|websockets web development real time|
+|WebGL|B|webgl web development graphics|
+|VirtualBox|E|virtualbox virtualization development|
+|Bluetooth|E|bluetooth wireless communication development|
+|Raspberry Pi|D|raspberry pi hardware development prototyping|
+|ESP32|D|esp32 embedded iot hardware development|
+|Platform.io|D|platform.io embedded systems development|
+|LLMs|B|large language models machine learning ai chat|
+|GPT-4|B|gpt-4 machine learning ai openai chat|
+|GPT-3.5|B|gpt-3.5 machine learning ai openai chat|
+|Prompting|B|prompting ai interaction development|
+|Tool Calling|B|tool calling ai integration development|
+|OpenAI Integration|B|openai integration ai machine learning chat|
+|GPT Integration|B|gpt integration ai machine learning|
+|Whisper Integration|B|whisper integration ai speech to text|
+|Chat Bots|B|chat bots ai interaction development|
+|Minecraft Modding|D|minecraft modding game development java|
+|AWS|C|aws amazon web services cloud|
+|Azure|C|azure microsoft cloud|
+|Google Cloud|C|google cloud cloud|
+|Heroku|B|heroku cloud platform as a service default|
+|DigitalOcean|B|digitalocean cloud infrastructure as a service|
