@@ -87,8 +87,8 @@
 |AppSec|B|appsec application security|
 |Documentation|B|documentation technical writing development|
 |Tracing|C|tracing debugging performance monitoring|
-|Test-Driven Development|C|test-driven development tdd testing methodology|
-|Behavior-Driven Development|B|behavior-driven development bdd testing methodology|
+|TDD|C|test-driven development tdd testing methodology|
+|BDD|B|behavior-driven development bdd testing methodology|
 |Unit Testing|C|unit testing testing software|
 |Integration Testing|C|integration testing testing software|
 |Building MVPs|B|building mvps startup lean methodology|

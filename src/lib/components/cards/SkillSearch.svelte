@@ -11,8 +11,6 @@
 
   const clear = () => search = '';
 
-  const filler = () => rows = filter(null, "default");
-
   const filter = (e, token = search) => {
     if (token === '')
       return filler();
@@ -62,12 +60,12 @@
 
   onMount(() => fetch(src).then(async res => {
     const csv = await res.text();
-    data = csv.split('\r\n')
+    data = csv.split('\n')
       .map(row => row.split('|')
         .map(cell => cell.trim()))
       .map(c => [c[1], c[2], tokenize(c[3])])
       .slice(3, -1);
-  }).then(() => filler()));
+  }).then(() => filter(null, "development")));
 </script>
 
 <Row class="align-content-start" style="min-height:100vh">
