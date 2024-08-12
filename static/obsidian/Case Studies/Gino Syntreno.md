@@ -1,1 +1,0 @@
-Gino Syntreno is a persona created by Syntreno to demo the soft skills training experiences. It is controlled by GPT-4o, with Whisper and TTS being used to accept input from the user and playback speech within a 3 second round-trip.
