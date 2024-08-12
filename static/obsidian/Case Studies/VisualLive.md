@@ -1,5 +1,8 @@
-**Duration:** March 2020 - March 2021  
-**Role:** Full-Stack Software Engineer
+**Duration:** March 2020 - March 2021
+#### Summary
+- Maintained Ruby on Rails application, adding new features focusing on resolving tech debt.
+- Modernizing static HTML front-end with TurboLinks and Bootstrap.
+- Delivered 99.99% uptime after building a CI/CD pipeline with GitLab CI, Brakeman, and Newman, decreasing service interruptions by 75% and maintaining customer trust.
 #### Background
 VisualLive, a leading augmented reality (AR) company in the construction and manufacturing industries, faced significant challenges with its cloud infrastructure and codebase in early 2020. The company’s platform, which was crucial for visualizing and managing complex 3D models, had been passed between various consultants over time, resulting in a fragmented and inefficient system. The platform was plagued by long load times, frequent performance issues, and technical debt, which hindered its ability to scale and meet the demands of its users.
 
