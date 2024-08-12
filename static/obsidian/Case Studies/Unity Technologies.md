@@ -1,4 +1,8 @@
 **Duration:** March 2020 - June 2023  
+#### Summary
+- Collaborated with cross-functional teams to develop APIs and implement new features.
+- Developed microservices in Ruby for file conversion, using FFI to call C++ code.
+- Reduced hosting costs by 30% by dockerizing a Ruby on Rails application and deploying it to AKS.
 #### Background
 In March 2020, Unity Technologies acquired VisualLive, a leading provider of augmented reality solutions for construction and manufacturing industries. With this acquisition, Unity aimed to integrate VisualLive’s innovative technologies into its own cloud ecosystem to expand its offerings and improve user experience. I was onboarded during this acquisition to lead the maintenance and integration efforts, focusing on streamlining processes, enhancing system performance, and ensuring seamless user experiences.
 #### Challenge

@@ -1,8 +1,8 @@
 **Duration:** August 2023 - August 2024
 #### Summary
-- Developed Syntreno’s flagship product, an advanced training simulation that uses GPT-4 to control lifelike, voice-interactive virtual characters, significantly improving learning outcomes.
-- Engineered a secure API proxy server using Ruby and Sinatra for token management and OpenAI integration, reducing unauthorized access attempts and throttling with Rack::Attack.
-- Collaborated with C-level executives to optimize real-time voice recognition using Whisper, resulting in a 50% reduction in latency, thereby enhancing user satisfaction.
+- Developed Syntreno’s flagship product, a training simulation in Unity with GPT integration.
+- Developed a JSON API in Ruby for license management and OpenAI access, deployed to Heroku.
+- Collaborated with founders to conceptualize and align development with business objectives.
 #### Background
 Syntreno, a seed-stage startup, aimed to revolutionize soft skills training by leveraging advanced AI technologies. The company envisioned a product that could simulate real-life interactions using GPT-4-controlled virtual characters, providing users with immersive, voice-interactive training experiences. As the Lead Software Engineer, I was tasked with developing this flagship product, overcoming the technical challenges of integrating AI with Unity, and navigating the complexities of bringing such an innovative solution to market.
 #### Challenge

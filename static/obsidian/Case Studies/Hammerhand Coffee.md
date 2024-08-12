@@ -1,4 +1,7 @@
 **Duration:** September 2017 - April 2019  
+#### Summary
+- Developed coffee ordering app in Ruby on Rails, generating $3M in additional revenue.
+- Led projects, managed client relationships, and provided support to stakeholders and customers.
 #### Background
 In 2017, I identified a gap in the market for a streamlined, user-friendly platform that allowed customers to order coffee online for pickup at their local cafés. Many small businesses lacked the technical infrastructure to offer online ordering, putting them at a disadvantage compared to larger chains. To address this, I founded Order Coffee Online, a platform designed to empower small businesses by providing them with a simple, cost-effective way to accept online orders.
 
