@@ -9,7 +9,13 @@
   const byGrade = (row1, row2) => row1[1].localeCompare(row2[1]);
   const byToken = (row, token) => tokenize(token).some(_ => row[2].includes(_));
 
-  const clear = () => search = '';
+  const clear = () => {
+    if (focused) return;
+    search = '';
+    filler();
+  }
+
+  const filler = () => filter(null, "development");
 
   const filter = (e, token = search) => {
     if (token === '')
@@ -44,12 +50,12 @@
         setTimeout(typeNext, 100);
       } else {
         filter();
-        setTimeout(type, 1000);
+        setTimeout(type, 10000);
       }
     }
 
     clear();
-    setTimeout(typeNext, 5000);
+    setTimeout(typeNext, 30000);
   }
 
   let focused = false;
@@ -69,9 +75,9 @@
 </script>
 
 <Row class="align-content-start" style="min-height:100vh">
-  <Container class="mt-5 mb-4">
-    <h2>Search My Skills</h2>
-    <Input type="search" placeholder="Search my skills (e.g. development)" bind:value={search}
+  <Container class="mt-4 mb-4">
+    <h2>Skills</h2>
+    <Input type="search" placeholder="Search my skills (e.g. ruby)" bind:value={search}
       on:click={clear} on:input={filter}
       on:focus={() => focused = true} on:blur={() => focused = false} />
   </Container>

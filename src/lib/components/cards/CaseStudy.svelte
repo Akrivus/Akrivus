@@ -54,7 +54,6 @@
 <Modal {toggle} size="lg" bind:isOpen={open}>
   <ModalHeader {toggle}>
     <h5>{title}</h5>
-    <span class="small">{subtitle}</span>
   </ModalHeader>
   <ModalBody>
     <Content {src} />

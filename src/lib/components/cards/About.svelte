@@ -23,6 +23,10 @@
 </script>
 
 <style>
+  :global(.modal-body) {
+    overflow-y: scroll;
+    max-height: 75vh;
+  }
   .name {
     color: var(--bs-success);
     font-size: 3rem;
