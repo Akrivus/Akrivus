@@ -3,7 +3,6 @@ In 2017, I identified a gap in the market for a streamlined, user-friendly platf
 As the founder and lead developer, I was responsible for every aspect of the project—from ideation and development to marketing and client engagement. My goal was to weave my foundation within the tightly-knit coffee industry and position OCO as a leader in coffee-tech.
 ##### Stack
 Ruby, Sinatra, Ruby on Rails, PostgreSQL, MongoDB, DigitalOcean
-*Integrating* Twilio, Stripe, Square
 ##### Objective
 The primary challenges in building OCO were:
 1. User Experience

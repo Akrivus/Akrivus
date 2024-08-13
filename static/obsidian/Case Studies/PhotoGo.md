@@ -12,7 +12,7 @@ Ruby on Rails, PostgreSQL, CarrierWave, ActiveStorage, AWS S3
 - Front-end design using Bootstrap.
 - Used config.ru for quick deployment to Heroku.
 ##### Impact & Conclusion
-* Job offer at VisualLive secured shortly before final deployment to Heroku.
+- Job offer at VisualLive secured shortly before final deployment to Heroku.
 - Eventual containerization to practice for containerization at work.
 - Eventual upgrade from Rails 6 to 7.
 - Eventual switch from CarrierWave to ActiveStorage.

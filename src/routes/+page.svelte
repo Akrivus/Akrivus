@@ -21,7 +21,7 @@
         <h2>Experience</h2>
         <CaseStudy title="VisualLive" subtitle="Full Stack Developer" />
         <CaseStudy title="Unity Technologies" subtitle="Software Engineer" />
-        <CaseStudy title="Freelance" subtitle="Software Development" />
+        <CaseStudy title="Freelancing" subtitle="Software Development" />
         <CaseStudy title="Syntreno" subtitle="Software Engineer" />
       </Row>
     </Col>
