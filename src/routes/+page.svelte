@@ -9,7 +9,7 @@
 
 <style>
   :global(body) {
-    background-color: #121416;
+    background-color: #121416 !important;
   }
 </style>
 
