@@ -1,7 +1,19 @@
-I've had a portfolio since 2016, the first featuring screenshots of the various games I've made in a static HTML page. Now, I try to be a bit more creative, but it is difficult to be creative with web development when everything is transpiled and minified and mapped, it inherently reduces complexity, but adds complexity when you compare it to a static HTML page.
+In 2014, I took my first steps into the world of web development with the help of my father, who bought me my first domain, [akrivus.org](http://akrivus.org). At the time, I was fascinated by administrating internet forums and wikis, and this domain served as an introduction to myself and the projects I was passionate about. It wasn't a professional portfolio yet—more like a digital handshake, a way to showcase my interests.
 
-Enter SvelteKit, I get all the dynamics and frills I need without waiting 30 seconds for it to load. I like it better than React, but the market decides what is best and I seldom see much Svelte on the market.
+In 2016, I decided to switch domains from [akrivus.org](http://akrivus.org) to [akriv.us](https://akriv.us). It was a playful change—URL puns were a quick way to impress people, and it gave me a unique identity online. 
 
-As you can see, the thumbnail is different from what you see. This portfolio went through multiple iterations, starting with a more "this is my resume on a website" approach, to a "here's pictures of everything I did" to this collection of case studies, because I realized, everyone reading this asks me questions about what I actually do.
+By 2017, I started working as a freelance developer in Kansas City, and my portfolio played a crucial role. It showcased a wide range of technical skills and projects, proving to prospective clients that I was serious about helping them. The domain wasn't just a website; it was a statement that I was committed to my craft.
 
-I'm a generalist, with full-stack tendencies, so I need to showcase my thinking versus my skills, because I have so many.
+However, in 2019, an unfortunate incident forced me to abandon that domain. One of my indie projects, [KAGIC](https://www.curseforge.com/minecraft/mc-mods/kagic), attracted a community of 13,000 people, and after a conflict with one of them, I was doxed and swatted. This terrifying experience pushed me to focus entirely on professional projects for the next two years. It also created a rift between my mother and me, as she became concerned that my career in tech was more dangerous than I had let on.
+
+---
+
+Despite the challenges, my portfolio continued to grow, and in 2020, it helped me secure a role at VisualLive, a Unity shop. My background in indie game development allowed me to bridge a gap with the rest of the development team, and my web development skills were exactly what they needed. I believe that my experience in game development gave me a unique perspective that many web-first developers lack. Concepts like SSR feel like a reinvention of the wheel to me—proof that sometimes, the original builders had it right all along.
+
+By 2022, the tech landscape was shifting, and so was my career. Unity was laying off employees, and I found myself cross-training into a more Unity-centric role. While I wasn't opposed to this, I felt like it was a step back from my core skills as a Ruby on Rails developer. It was then that I decided to revamp my portfolio, seeking a solution that was both responsive and modern. I chose SvelteKit because it allowed me to create a dynamic, single-page application that deployed like a static web page. I didn't want to just upload another static HTML resume—I wanted to challenge myself and create something that reflected my technical aptitude and pragmatism.
+
+During this time, I also rebranded from 'akrivus' to 'owen.codes'. People kept pronouncing 'akrivus' as 'ak-virus', and I didn't bother correcting them. 'owen.codes' felt more straightforward, delivering context right from the URL and better representing who I am as a professional.
+
+Today, [owen.codes](https://owen.codes) serves as my professional portfolio, while [akriv.us](https://akriv.us) highlights my more creative side projects, such as Block Party and Confable. On akriv.us, I identify as "Akri," the indie game developer, while on owen.codes, I am "Owen," the full-stack developer. These two domains complement each other, showcasing the different facets of my work and identity.
+
+Since updating my portfolio, interviewers have often told me that I'm overqualified. Nevertheless, my portfolio remains a testament to my journey, my skills, and my passion for development that are a core part of who I am and how I see myself.

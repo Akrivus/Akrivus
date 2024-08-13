@@ -1,9 +1,17 @@
-Block Party is an RPG (role-playing game) engine in Minecraft, made with Minecraft Forge, an API for modifying Minecraft to add new behaviors and features.
+Block Party is a modification to Minecraft made with Minecraft Forge, an API for adding new behaviors and features into the game's code. There are 329 characters in the default edition, representing most of the blocks in Minecraft. I hired an artist and a voice actress to create assets, while I built the 3D models and wrote the 11,000 lines of code to build a dialogue and scripting engine, enabling users to talk to characters and content creators to write stories for viewers and fellow players using a simple JSON system for defining conversations and quests.
 
-The RPG engine works with "scenes" which are JSON files that tell characters how to act and what to say. I created a custom serializer to map strings to functions and parse arguments, enabling content creators to write scenes that interact with the game in advanced ways, such as creating quests, adding narration, and telling stories, all without writing any business logic in code.
-
-There are 329 characters in the default edition of Block Party, representing most of the blocks in Minecraft. I hired a friend to make these textures, and have been given permission to modify the textures to continuously add new characters as new updates are released.
-
-While unfinished, Block Party has been in active development for 3 out of the past 5 years, returning into a phase of active development in 2024 as generative AI demonstrates its versatility, generating scene-plays from prompts and returning structured scene JSON for rapid integration of new storylines.
-
-Alongside the versatile cast of characters and the JSON scene-writing system, Block Party features unique Japanese-inspired items, such as a set of samurai armor, and structures used for summoning characters based on Torii gates, which make the sky and trees turn pink and render a silhouette of Mount Fuji.
+Block Party plays off of the back of KAGIC, which I built in 2016 that added characters from Steven Universe to Minecraft. By 2019, KAGIC garnered a community of 13,000, and I stepped down as lead developer to focus on building a career in software engineering. Block Party eases a creative itch I've had to create personable experiences in Minecraft to make the game feel less lonely.
+##### Stack
+Java
+##### Objective
+The goal of Block Party was to use emotive animations, routine behaviors, and unique character designs to enable users to bond with individual characters. By adding these distinct personas to Minecraft, it adds a level of familiarity to a game built upon novelty and randomness.
+##### Implementation
+Block Party required multiple stages of focus:
+- Minecraft doesn't have a robust animation system, requiring me to rig models for animations and building out a state machine to switch from one animation state to another, such as clapping hands, waving arms, and changing face textures to show emotion.
+- While some mods, like Custom NPCs and MCA have dialogue, they're either linear or closed source, requiring me to build another state machine for dialogue UI, which was heavily reliant on Minecraft Forge's deprecated networking system, necessitating many rewrites.
+- The ability to define conversations in JSON was a game-changer, and adding new JSON resources for defining custom characters made Block Party into an RPG engine in Minecraft. For a time, the core library holding Block Party together was called GIG (Game-In-Game) but was changed back to Block Party in 2023 as part of an effort to speed up development.
+- The release of LLMs like GPT-3.5 enabled me to push more content per update using AI to generate new dialogue trees, quests, and characters. What was slated to take me 3 years to finish can now take 30 minutes using ChatGPT's structured JSON output.
+##### Impact & Conclusion
+While still under active development, Block Party is not short on achievements:
+- Development started in 2018 as KAGIC: Era 2, which was publicly discontinued in 2019 after I stepped down. I continued development in secret until 2022, when it was revealed. The outpour of community support due to the assumed end to my modding hiatus motivated me to continue developing it at my own pace and incorporate innovative features such as AI.
+- The inclusion of generative AI allows content creators to provide a prompt, which GPT can use to assign characters to scenes and write up dialogue trees and quests. This enables a potential monetization scheme, where YouTubers and streamers can generate content catered to their audience without having to learn JSON or develop their own mods.

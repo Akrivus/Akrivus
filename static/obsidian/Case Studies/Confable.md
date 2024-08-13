@@ -1,3 +1,16 @@
-I created Confable during my time at Unity. After I was laid off, I dedicated my full time into development, culminating in a successful prototype of an active ragdoll that responds to environmental cues while attempting to match a keyframe, and a job offer from Syntreno. I worked more on dialogue-flow, to better align with my work at Syntreno, but the ML agent used to drive joint movements is really just missing a better reward function to assist in training.
+Confable started out as an active ragdoll trained to match a target pose against simulated physics, and turned into an AI integration for behavioral and environmental cues, and dialogue using TTS.
+##### Stack
+C#, Unity, ML-Agents, TensorFlow
+##### Objective
+- Active ragdolls that respond to physics by applying more torque to reach a target position.
+- GPT integration for dialogue generation and state machine transition.
+- Whisper integration for voice-to-voice interaction with characters on screen.
+##### Implementation
+- Built a reward function in C# to train a neural network to drive joint torque based on angular distance from target rotations.
+- Trained a neural network in TensorFlow against a multi-stage obstacle course.
+- Developed a state machine controlled by GPT for conversational and behavioral flow.
+##### Impact & Conclusion
+- Job offer secured at Syntreno, bootstrapping the project.
+- The creation of 3 hours of AI-generated video footage.
 
 For conversation demos, I'll point you to [my YouTube channel](https://www.youtube.com/@Akrivus) or show you [my current favorite.](https://www.youtube.com/watch?v=jdgFEDJBAyM)
