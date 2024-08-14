@@ -11,5 +11,5 @@ Here's some facts about me:
 - ☕ I have an espresso machine.
 
 ### Links
-- **[Resume](./static/Owen-Adrian-Software-Engineer-Resume.pdf)**
+- **[Resume](./static/Owen-Adrian-Software-Developer-Resume.pdf)**
 - **[Portfolio](https://owen.codes)**

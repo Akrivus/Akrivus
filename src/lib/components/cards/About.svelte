@@ -54,7 +54,7 @@
   </CardBody>
   <CardFooter>
     <ButtonGroup>
-      <Button color="success" href="./Owen-Adrian-Software-Engineer-Resume.pdf" target="_blank">
+      <Button color="success" href="./Owen-Adrian-Software-Developer-Resume.pdf" target="_blank">
         <i class="fas fa-file-pdf" />&nbsp;
         Résumé
       </Button>
