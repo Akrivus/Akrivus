@@ -19,10 +19,10 @@
     <Col>
       <Row>
         <h2>Experience</h2>
+        <CaseStudy title="Nava PBC" subtitle="Software Engineer" />
         <CaseStudy title="VisualLive" subtitle="Full Stack Developer" />
         <CaseStudy title="Unity Technologies" subtitle="Software Engineer" />
         <CaseStudy title="Freelancing" subtitle="Software Development" />
-        <CaseStudy title="Syntreno" subtitle="Software Engineer" />
       </Row>
     </Col>
   </Row>

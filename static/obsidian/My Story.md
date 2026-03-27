@@ -4,4 +4,6 @@ As COVID-19 approached, I sold my business and joined VisualLive, where I overha
 
 In 2023, I joined Syntreno, a startup focused on AI-driven soft skills training. I developed their flagship product, using Unity and GPT-4 to create lifelike virtual characters, enhancing learning outcomes and user satisfaction with real-time voice interactivity.
 
-From a self-taught programmer in rural Missouri to a software engineer at the forefront of AI and immersive tech, my journey has been driven by a relentless pursuit of innovation and a passion for creating systems that make life easier and more enjoyable. I'm committed to pushing the boundaries of technology and making a meaningful impact.
+A year later, in 2024, my daughter, Esme was born, and I started a new role at Nava PBC, where I help design and implement features for Minnesota's Paid Leave program, which provides paid leave benefit pay for thousands of Minnesotans to rest, recover, and spend time to bond with their growing families.
+
+From a self-taught programmer in rural Missouri to a software engineer at the forefront of AI and immersive tech, to serving a mission that benefits the public, my journey has been driven by a relentless pursuit of innovation and a passion for creating systems that make life easier and more enjoyable. I'm committed to pushing the boundaries of technology and making a meaningful impact.
