@@ -51,9 +51,6 @@
       github="https://github.com/Akrivus/hbox" />
     <CaseStudy md={6} lg={3} title="Order Coffee Online"
       subtitle="Increasing mid-shift café sales." image />
-    <CaseStudy md={6} lg={3} title="Portfolio"
-      subtitle="Curating my skills and experience." image
-      github="https://github.com/Akrivus/Akrivus" />
     <CaseStudy md={6} lg={3} title="Confable"
       subtitle="Generating reels with AI and Unity." image format="gif"
       github="https://github.com/Akrivus/Confable"
