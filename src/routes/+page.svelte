@@ -46,6 +46,9 @@
 
   <Row class="mt-4">
     <h2>Projects & Case Studies</h2>
+    <CaseStudy md={6} lg={3} title="HBOx"
+      subtitle="Shared runtime for AI-driven shows and worlds."
+      github="https://github.com/Akrivus/hbox" />
     <CaseStudy md={6} lg={3} title="Order Coffee Online"
       subtitle="Increasing mid-shift café sales." image />
     <CaseStudy md={6} lg={3} title="Portfolio"
